@@ -20,7 +20,7 @@ var items as string[] = [
 	"admit_of_bloody_acts",
 	"something_connected_to_the_world",
 	"print_egg",
-	"stranger_things"
+	"stranger_things",
 ];
 
 //物品注册
