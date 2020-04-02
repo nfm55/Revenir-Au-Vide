@@ -18,8 +18,7 @@ var items as string[] = [
 	"knowledge_of_craftmen",
 	"Connection_of_the_world",
 	"Easter_eggs",
-	"strange_things"，
-	"knowledge_of_elf",
+	"strange_things",
 ];
 
 //物品注册
