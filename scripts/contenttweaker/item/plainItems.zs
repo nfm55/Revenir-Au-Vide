@@ -19,6 +19,7 @@ var items as string[] = [
 	"Connection_of_the_world",
 	"Easter_eggs",
 	"strange_things"，
+	"knowledge_of_elf",
 ];
 
 //物品注册
