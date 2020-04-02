@@ -13,3 +13,5 @@ mods.botania.RuneAltar.addRecipe(<botania:rune>*2,[<contenttweaker:elf_will>, <m
 mods.botania.RuneAltar.addRecipe(<botania:rune:2>*2,[<contenttweaker:elf_will>, <minecraft:stone>,<botania:manaresource:23>,<botania:manaresource>,<contenttweaker:void_matter>], 8000);
 //风之符文
 mods.botania.RuneAltar.addRecipe(<botania:rune:3>*2,[<contenttweaker:elf_will>, <minecraft:string>,<botania:manaresource:23>,<botania:manaresource>,<contenttweaker:void_matter>], 8000);
+//魔力符文
+mods.botania.RuneAltar.addRecipe(<botania:rune:8>*2,[<contenttweaker:elf_will>, <botania:manaresource:1>,<botania:manaresource:2>,<botania:manaresource>,<contenttweaker:void_matter>], 8000);
