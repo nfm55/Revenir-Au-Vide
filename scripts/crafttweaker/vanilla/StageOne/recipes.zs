@@ -48,5 +48,7 @@ recipes.addShaped(<botania:alfheimportal>, [[<botania:livingwood>, cvm, <botania
 recipes.addShaped(<minecraft:reeds>, [[vm, null, vm],[<minecraft:grass>, null, <minecraft:grass>], [<minecraft:sand>, null, <minecraft:sand>]]);
 //沙子
 recipes.addShaped(<minecraft:sand> * 2, [[<minecraft:grass>, <minecraft:grass>, <minecraft:grass>],[<minecraft:grass>, vm, <minecraft:grass>], [<minecraft:grass>, <minecraft:grass>, <minecraft:grass>]]);
+//压缩虚空物质
 recipes.addShaped(cvm,[[<contenttweaker:void_matter>,<contenttweaker:void_matter>,<contenttweaker:void_matter>],[<contenttweaker:void_matter>,<contenttweaker:void_matter>,<contenttweaker:void_matter>],[<contenttweaker:void_matter>,<contenttweaker:void_matter>,<contenttweaker:void_matter>]]);
+//双重压缩虚空物质
 recipes.addShaped(dcvm,[[cvm,cvm,cvm],[cvm,cvm,cvm],[cvm,cvm,cvm]]);
