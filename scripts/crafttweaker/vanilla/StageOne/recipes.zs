@@ -52,3 +52,6 @@ recipes.addShaped(<minecraft:sand> * 2, [[<minecraft:grass>, <minecraft:grass>, 
 recipes.addShaped(cvm,[[<contenttweaker:void_matter>,<contenttweaker:void_matter>,<contenttweaker:void_matter>],[<contenttweaker:void_matter>,<contenttweaker:void_matter>,<contenttweaker:void_matter>],[<contenttweaker:void_matter>,<contenttweaker:void_matter>,<contenttweaker:void_matter>]]);
 //双重压缩虚空物质
 recipes.addShaped(dcvm,[[cvm,cvm,cvm],[cvm,cvm,cvm],[cvm,cvm,cvm]]);
+recipes.addShaped(<botania:blacklotus:1>, [[<minecraft:coal_block>, null, <minecraft:coal_block>],[<minecraft:coal_block>, <contenttweaker:double_compressed_void_matter>, <minecraft:coal_block>], [<botania:livingwood>, <minecraft:coal_block>, <botania:livingwood>]]);
+//煤炭块
+recipes.addShaped(<minecraft:coal_block> * 4, [[null, <botania:dye:15>, null],[<botania:dye:15>, <contenttweaker:void_matter>, <botania:dye:15>], [null, <botania:dye:15>, null]]);
