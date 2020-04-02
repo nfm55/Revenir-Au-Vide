@@ -1,6 +1,7 @@
 #priority -100
 var vm = <contenttweaker:void_matter>.anyDamage();
 var cvm = <contenttweaker:compressed_void_matter>;
+var dcvm = <contenttweaker:double_compressed_void_matter>;
 //岩浆桶
 recipes.addShaped(<minecraft:lava_bucket>, [[vm.transformDamage(30), vm.transformDamage(30),vm.transformDamage(30)],[vm.transformDamage(30), <minecraft:dirt>, vm.transformDamage(30)], [vm.transformDamage(30),vm.transformDamage(30), vm.transformDamage(30)]]);
 //水桶
@@ -47,3 +48,5 @@ recipes.addShaped(<botania:alfheimportal>, [[<botania:livingwood>, cvm, <botania
 recipes.addShaped(<minecraft:reeds>, [[vm, null, vm],[<minecraft:grass>, null, <minecraft:grass>], [<minecraft:sand>, null, <minecraft:sand>]]);
 //沙子
 recipes.addShaped(<minecraft:sand> * 2, [[<minecraft:grass>, <minecraft:grass>, <minecraft:grass>],[<minecraft:grass>, vm, <minecraft:grass>], [<minecraft:grass>, <minecraft:grass>, <minecraft:grass>]]);
+recipes.addShaped(cvm,[[<contenttweaker:void_matter>,<contenttweaker:void_matter>,<contenttweaker:void_matter>],[<contenttweaker:void_matter>,<contenttweaker:void_matter>,<contenttweaker:void_matter>],[<contenttweaker:void_matter>,<contenttweaker:void_matter>,<contenttweaker:void_matter>]]);
+recipes.addShaped(dcvm,[[cvm,cvm,cvm],[cvm,cvm,cvm],[cvm,cvm,cvm]]);
