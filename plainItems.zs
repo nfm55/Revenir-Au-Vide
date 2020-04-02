@@ -19,6 +19,7 @@ var items as string[] = [
 	"admit_of_elf",
 	"admit_of_bloody_acts",
 	"something_connected_to_the_world"
+	"print_egg"
 ];
 
 //物品注册
