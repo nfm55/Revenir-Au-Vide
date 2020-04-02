@@ -1,12 +1,17 @@
 #priority -100
 var vm = <contenttweaker:void_matter>.anyDamage();
 var cvm = <contenttweaker:compressed_void_matter>;
-
+//岩浆桶
 recipes.addShaped(<minecraft:lava_bucket>, [[vm.transformDamage(30), vm.transformDamage(30),vm.transformDamage(30)],[vm.transformDamage(30), <minecraft:dirt>, vm.transformDamage(30)], [vm.transformDamage(30),vm.transformDamage(30), vm.transformDamage(30)]]);
+//水桶
 recipes.addShaped(<minecraft:water_bucket>, [[vm.transformDamage(30), vm.transformDamage(30),vm.transformDamage(30)],[vm.transformDamage(30), <minecraft:grass>, vm.transformDamage(30)], [vm.transformDamage(30),vm.transformDamage(30), vm.transformDamage(30)]]);
+//草（中文意）
 recipes.addShaped(<minecraft:grass>, [[null, null, null],[null, vm.transformDamage(10), null], [null, <minecraft:dirt>, null]]);
+//树苗
 recipes.addShaped(<minecraft:sapling>, [[vm.transformDamage(10),vm.transformDamage(10), vm.transformDamage(10)]]);
+//泥土
 recipes.addShapeless(<minecraft:dirt> * 4, [vm]);
+//钻石!
 recipes.addShaped(<minecraft:diamond>, [[vm, <minecraft:gold_ingot>, <minecraft:gold_ingot>],[<minecraft:gold_ingot>, <minecraft:gold_ingot>, null]]);
 recipes.addShaped(<minecraft:gold_ingot>, [[vm, <minecraft:iron_ingot>, <minecraft:iron_ingot>],[<minecraft:iron_ingot>, <minecraft:iron_ingot>, null], [null, null, null]]);
 recipes.addShaped(<minecraft:iron_ore> * 4, [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],[<minecraft:cobblestone>, vm.transformDamage(50), <minecraft:cobblestone>], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
