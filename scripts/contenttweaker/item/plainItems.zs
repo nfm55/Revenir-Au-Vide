@@ -25,7 +25,7 @@ var items as string[] = [
 for item in items{
 	VanillaFactory.createItem(item).register();
 }
-val item = VanillaFactory.createItem("void_matter_test");
+val item = VanillaFactory.createItem("void_matter");
 item.maxStackSize = 64;
 item.rarity = "EPIC";
 item.glowing = true;
