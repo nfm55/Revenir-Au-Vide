@@ -12,14 +12,13 @@
 
 //物品列表
 var items as string[] = [
-	"void_matter",
 	"compressed_void_matter",
 	"double_compressed_void_matter",
 	"elf_will",
-	"knowledge_of_craftmen"
-	"something_connected_to_the_world",
-	"print_egg",
-	"stranger_things"，
+	"knowledge_of_craftmen",
+	"Connection_of_the_world",
+	"Easter_eggs",
+	"strange_things"，
 ];
 
 //物品注册
