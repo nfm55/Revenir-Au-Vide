@@ -4,6 +4,7 @@ import crafttweaker.item.IIngredient;
 import mods.botaniatweaks.Agglomeration;
 
 Agglomeration.removeDefaultRecipe();
+
 //低效率的泰拉钢
 Agglomeration.addRecipe(
     <botania:manaresource:4>, //输出
