@@ -1,0 +1,30 @@
+AutoRegLib-1.3-32
+base-1.12.2-3.13.0
+Baubles-1.12-1.5.2
+BetterFps-1.4.8
+BloodMagic-1.12.2-2.4.3-105
+Bookshelf-1.12.2-2.3.590
+Botania r1.10-363
+ClientTweaks_1.12.2-3.1.11
+ContentTweaker-1.12.2-4.9.1
+CraftTweaker2-1.12-4.1.20
+FTBLib-5.4.7.0
+FTBQuests-1.8.0.237
+FTBUtilities-5.4.0.124-sources
+GameStages-1.12.2-2.0.115
+Guide-API-1.12-2.1.8-63
+ImmersiveEngineering-0.12-92
+InventoryTweaks-1.63
+ItemFilters-1.0.3.12
+ItemStages-1.12.2-2.0.49
+jei_1.12.2-4.15.0.291
+modtweaker-4.0.18
+Modular Diversity-1.10
+modularmachinery-1.12.2-1.10.0
+MouseTweaks-2.10-mc1.12.2
+NoMoreRecipeConflict-0.13(1.12.2)
+ProjectE-1.12.2-PE1.4.1
+QuickLeafDecay-MC1.12.1-1.2.4
+RecipeStages-1.1.3
+SmoothFont-mc1.12.2-2.1.1
+voidislandcontrol-1.5.3
