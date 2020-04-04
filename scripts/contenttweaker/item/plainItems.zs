@@ -26,7 +26,7 @@ for item in items{
 	VanillaFactory.createItem(item).register();
 }
 val item = VanillaFactory.createItem("void_matter");
-item.maxStackSize = 64;
+item.maxStackSize = 1;
 item.rarity = "EPIC";
 item.glowing = true;
 item.maxDamage = 100;
