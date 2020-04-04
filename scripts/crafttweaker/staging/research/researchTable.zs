@@ -57,209 +57,210 @@ function init(){
 
         )
         .setRewardStages('gaia_hou')
-        .setRewardCommands(.setRewardCommands(fireworks_big, title("来自精灵的最后"), sound, fireworks_small))
-        .build()
+        .setRewardCommands(fireworks_big, title("来自精灵的最后"), sound, fireworks_small)
+        .build();
     //血魔法的一系列研究
-     ResearchTable.builder（"世界理论：生命",c)
+     ResearchTable.builder("世界理论：生命", c)
         .setRequiredResearches("远古仪式复现")
-        .setIcons(//没想好)
+        .setIcons()
         .setTitle("rav.research.life.tittle")
         .setDescription("rav.research.life.description")
         .addCondition(
 
         )
         .setRewardStages('life_beginning')
-        .setRewardCommands(.setRewardCommands(fireworks_big, title("生命"), sound, fireworks_small))
-        .build()
-     ResearchTable.builder（"生命源质提取",c)
+        .setRewardCommands(fireworks_big, title("生命"), sound, fireworks_small)
+        .build();
+     ResearchTable.builder("生命源质提取",c)
         .setRequiredResearches("世界理论：生命")
-        .setIcons(//没想好)
+        .setIcons()
         .setTitle("rav.research.qi_extract.tittle")
         .setDescription("rav.research.qi_extract.description")
         .addCondition(
 
         )
         .setRewardStages('qi_extract')
-        .setRewardCommands(.setRewardCommands(fireworks_big, title("提取源质（物理）"), sound, fireworks_small))
-        .build()
-     ResearchTable.builder（"气血碎片凝聚",c)
+        .setRewardCommands(fireworks_big, title("提取源质(物理）"), sound, fireworks_small)
+        .build();
+     ResearchTable.builder("气血碎片凝聚",c)
         .setRequiredResearches("生命源质提取")
-        .setIcons(//没想好)
+        .setIcons()
         .setTitle("rav.research.qi_cohesion.tittle")
         .setDescription("rav.research.qi_cohesion.description")
         .addCondition(
 
         )
         .setRewardStages('qi_cohesion')
-        .setRewardCommands(.setRewardCommands(fireworks_big, title("凝聚源质（物理）"), sound, fireworks_small))
-        .build()
-     ResearchTable.builder（"血腥仪式理解",c)
+        .setRewardCommands(fireworks_big, title("凝聚源质(物理）"), sound, fireworks_small)
+        .build();
+     ResearchTable.builder("血腥仪式理解",c)
         .setRequiredResearches("气血碎片凝聚")
-        .setIcons(//没想好)
+        .setIcons( )
         .setTitle("rav.research.ceremony_to_understand.tittle")
         .setDescription("rav.research.Ceremony_to_understand.description")
         .addCondition(
 
         )
         .setRewardStages('ceremony_to_understand')
-        .setRewardCommands(.setRewardCommands(fireworks_big, title("仪式入门"), sound, fireworks_small))
-        .build()
-     ResearchTable.builder（"世界认知：生命",c)
+        .setRewardCommands(fireworks_big, title("仪式入门"), sound, fireworks_small)
+        .build();
+     ResearchTable.builder("世界认知：生命",c)
         .setRequiredResearches("血腥仪式理解")
-        .setIcons(//没想好)
+        .setIcons( )
         .setTitle("rav.research.understand_life.tittle")
         .setDescription("rav.research.understand_life.description")
         .addCondition(
 
         )
         .setRewardStages('understand_life')
-        .setRewardCommands(.setRewardCommands(fireworks_big, title("仪式代师"), sound, fireworks_small))
-        .build()
-     ResearchTable.builder（"创世：一即全",c)
+        .setRewardCommands(fireworks_big, title("仪式代师"), sound, fireworks_small)
+        .build();
+     ResearchTable.builder("创世：一即全",c)
         .setRequiredResearches("世界认知：虚空")
-        .setIcons(//没想好)
+        .setIcons( )
         .setTitle("rav.research.one_is_all.tittle")
         .setDescription("rav.research.one_is_all.description")
         .addCondition(
 
         )
         .setRewardStages('one_is_all')
-        .setRewardCommands(.setRewardCommands(fireworks_big, title("一生二，二生三，三生万物"), sound, fireworks_small))
-        .build()
+        .setRewardCommands(fireworks_big, title("一生二，二生三，三生万物"), sound, fireworks_small)
+        .build();
     //匠魂的一系列研究
-     ResearchTable.builder（"世界理论：材料",c)
+     ResearchTable.builder("世界理论：材料",c)
         .setRequiredResearches("远古仪式复现")
-        .setIcons(//没想好)
+        .setIcons( )
         .setTitle("rav.research.theory_of_material.tittle")
         .setDescription("rav.research.theory_of_material.description")
         .addCondition(
 
         )
         .setRewardStages('theory_of_material')
-        .setRewardCommands(.setRewardCommands(fireworks_big, title("粗浅的材料认知"), sound, fireworks_small))
-        .build()
-     ResearchTable.builder（"工具结构分析",c)
+        .setRewardCommands(fireworks_big, title("粗浅的材料认知"), sound, fireworks_small)
+        .build();
+     ResearchTable.builder("工具结构分析",c)
         .setRequiredResearches("世界理论：材料")
-        .setIcons(//没想好)
+        .setIcons( )
         .setTitle("rav.analyze.tittle")
         .setDescription("rav.analyze.description")
         .addCondition(
 
         )
         .setRewardStages('analyze')
-        .setRewardCommands(.setRewardCommands(fireworks_big, title("分析工具结构"), sound, fireworks_small))
-        .build()
-     ResearchTable.builder（"地狱矿产研究",c)
+        .setRewardCommands(fireworks_big, title("分析工具结构"), sound, fireworks_small)
+        .build();
+     ResearchTable.builder("地狱矿产研究",c)
         .setRequiredResearches("工具结构分析")
-        .setIcons(//没想好)
+        .setIcons( )
         .setTitle("rav.mineral_analysis.tittle")
         .setDescription("rav.mineral_analysis.description")
         .addCondition(
 
         )
         .setRewardStages('mineral_analysis')
-        .setRewardCommands(.setRewardCommands(fireworks_big, title("来自深渊的矿物"), sound, fireworks_small))
-        .build()
-     ResearchTable.builder（"新材料利用测试",c)
+        .setRewardCommands(fireworks_big, title("来自深渊的矿物"), sound, fireworks_small)
+        .build();
+     ResearchTable.builder("新材料利用测试",c)
         .setRequiredResearches("地狱矿产研究")
-        .setIcons(//没想好)
+        .setIcons( )
         .setTitle("rav.utilization_of_new_materials.tittle")
         .setDescription("rav.utilization_of_new_materials.description")
         .addCondition(
 
         )
         .setRewardStages('utilization_of_new_materials')
-        .setRewardCommands(.setRewardCommands(fireworks_big, title("全新版本"), sound, fireworks_small))
-        .build()
-     ResearchTable.builder（"世界认知：材料",c)
+        .setRewardCommands(fireworks_big, title("全新版本"), sound, fireworks_small)
+        .build();
+     ResearchTable.builder("世界认知：材料",c)
         .setRequiredResearches("新材料利用测试")
-        .setIcons(//没想好)
+        .setIcons( )
         .setTitle("rav.material_of_cognitive.tittle")
         .setDescription("rav.material_of_cognitive.description")
         .addCondition(
 
         )
         .setRewardStages('material_of_cognitive')
-        .setRewardCommands(.setRewardCommands(fireworks_big, title("材料大师"), sound, fireworks_small))
-        .build()
+        .setRewardCommands(fireworks_big, title("材料大师"), sound, fireworks_small)
+        .build();
      //沉浸工艺的一系列研究
-     ResearchTable.builder（"世界理论：技术",c)
+     ResearchTable.builder("世界理论：技术",c)
         .setRequiredResearches("远古仪式复现")
-        .setIcons(//没想好)
+        .setIcons( )
         .setTitle("rav.technology.tittle")
         .setDescription("rav.technology.description")
         .addCondition(
 
         )
         .setRewardStages('technology')
-        .setRewardCommands(.setRewardCommands(fireworks_big, title("神奇的想法"), sound, fireworks_small))
-        .build()
-     ResearchTable.builder（"燃料理论革命",c)
+        .setRewardCommands(fireworks_big, title("神奇的想法"), sound, fireworks_small)
+        .build();
+     ResearchTable.builder("燃料理论革命",c)
         .setRequiredResearches("世界理论：技术")
-        .setIcons(//没想好)
+        .setIcons( )
         .setTitle("rav.fuel_revolution.tittle")
         .setDescription("rav.fuel_revolution.description")
         .addCondition(
 
         )
         .setRewardStages('fuel_revolution')
-        .setRewardCommands(.setRewardCommands(fireworks_big, title("燃烧理论"), sound, fireworks_small))
-        .build()
-     ResearchTable.builder（"金属调质探索",c)
+        .setRewardCommands(fireworks_big, title("燃烧理论"), sound, fireworks_small)
+        .build();
+     ResearchTable.builder("金属调质探索",c)
         .setRequiredResearches("燃烧理论革命")
-        .setIcons(//没想好)
+        .setIcons( )
         .setTitle("rav.metal_exploration.tittle")
         .setDescription("rav.metal_exploration.description")
         .addCondition(
 
         )
         .setRewardStages('metal_exploration')
-        .setRewardCommands(.setRewardCommands(fireworks_big, title("金属调质探索"), sound, fireworks_small))
-        .build()
-     ResearchTable.builder（"钢结构建造",c)
+        .setRewardCommands(fireworks_big, title("金属调质探索"), sound, fireworks_small)
+        .build();
+     ResearchTable.builder("钢结构建造",c)
         .setRequiredResearches("金属调质探索")
-        .setIcons(//没想好)
+        .setIcons( )
         .setTitle("rav.building_structure.tittle")
         .setDescription("rav.building_structure.description")
         .addCondition(
 
         )
         .setRewardStages('building_structure')
-        .setRewardCommands(.setRewardCommands(fireworks_big, title("神奇的力学"), sound, fireworks_small))
-        .build()
-     ResearchTable.builder（"世界认知：技术",c)
+        .setRewardCommands(fireworks_big, title("神奇的力学"), sound, fireworks_small)
+        .build();
+     ResearchTable.builder("世界认知：技术",c)
         .setRequiredResearches("钢结构建造")
-        .setIcons(//没想好)
+        .setIcons( )
         .setTitle("rav.technology_of_cognitive.tittle")
         .setDescription("rav.technology_of_cognitive.description")
         .addCondition(
 
         )
         .setRewardStages('technology_of_cognitive')
-        .setRewardCommands(.setRewardCommands(fireworks_big, title("技术认知"), sound, fireworks_small))
-        .build()
+        .setRewardCommands(fireworks_big, title("技术认知"), sound, fireworks_small)
+        .build();
     //模块化机器的亿些研究
-        ResearchTable.builder（"世界理论：新世界",c)
+        ResearchTable.builder("世界理论：新世界",c)
         .setRequiredResearches("世界认知：生命","世界认知：材料","世界认知：技术")
-        .setIcons(//没想好)
+        .setIcons( )
         .setTitle("rav.new_world.tittle")
         .setDescription("rav.new_world.description")
         .addCondition(
 
         )
         .setRewardStages('new_world')
-        .setRewardCommands(.setRewardCommands(fireworks_big, title(""), sound, fireworks_small))
-        .build()
-        ResearchTable.builder（"",c)
+        .setRewardCommands(fireworks_big, title(""), sound, fireworks_small)
+        .build();
+        /*ResearchTable.builder("",c)
         .setRequiredResearches("世界理论：新世界")
-        .setIcons(//没想好)
+        .setIcons( )
         .setTitle("rav..tittle")
         .setDescription("rav..description")
         .addCondition(
 
         )
         .setRewardStages('new_world')
-        .setRewardCommands(.setRewardCommands(fireworks_big, title(""), sound, fireworks_small))
-        .build()
+        .setRewardCommands(fireworks_big, title(""), sound, fireworks_small)
+        .build();
         
+*/
 }
