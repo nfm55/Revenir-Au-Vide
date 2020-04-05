@@ -28,13 +28,11 @@ var modsStageOne as string[] = [
 	"botanianeedsit",
 	"immersiveengineering",
 	"extendedcrafting",
-	"bloodmagic",
+	//"bloodmagic",
 	"modularmachinery",
 	"modulardiversity",
 	"akashictome",
 	"tconstruct",
-
-
 ];
 
 for mod in modsStageOne{
@@ -67,6 +65,43 @@ var itemStageGaia as IIngredient[] = [
 for item in itemsStageGaia{
 	addItemStage("Gaia", item);
 }
+
+var modsStageBlood as string[] = [
+	"bloodmagic"
+];
+
+for mod in modsStageBlood{
+
+	mods.ItemStages.stageModItems("Blood", mod);
+	Recipes.setRecipeStageByMod("Blood", mod);
+}
+
+var itemStageBlood as IIngredient[] = [
+	
+];
+
+for item in itemsStageBlood{
+	addItemStage("Blood", item);
+}
+
+var modsStageTinker as string[] = [
+	"tconstruct"
+];
+
+for mod in modsStageTinker{
+
+	mods.ItemStages.stageModItems("Tinker", mod);
+	Recipes.setRecipeStageByMod("Tinker", mod);
+}
+
+var itemStageTinker as IIngredient[] = [
+	
+];
+
+for item in itemsStageTinker{
+	addItemStage("Tinker", item);
+}
+
 /*
 var modsStageTwo as string[] = [
 	"botania",
