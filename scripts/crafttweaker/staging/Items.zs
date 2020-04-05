@@ -80,7 +80,8 @@ for mod in modsStageBlood{
 }
 
 var itemStageBlood as IIngredient[] = [
-	
+	//knowledge_of_bloody_act
+	<contenttweaker:knowledge_of_bloody_act>,
 ];
 
 for item in itemsStageBlood{
