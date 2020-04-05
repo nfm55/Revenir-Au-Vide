@@ -22,11 +22,11 @@ var allStages as string[] = [
 	"Banned"
 
 ];
-
+///////////////////////////////////////////
 var modsStageOne as string[] = [
 	"botanicadds",
 	"botanianeedsit",
-	"immersiveengineering",
+	//"immersiveengineering",
 	"extendedcrafting",
 	//"bloodmagic",
 	"modularmachinery",
@@ -41,6 +41,7 @@ for mod in modsStageOne{
 	Recipes.setRecipeStageByMod("one", mod);
 
 }
+///////////////////////////////////////////
 
 val itemsStageElf as IIngredient[] = [
 	<botania:manaresource:7>,
@@ -66,6 +67,8 @@ for item in itemsStageGaia{
 	addItemStage("Gaia", item);
 }
 
+///////////////////////////////////////////
+
 var modsStageBlood as string[] = [
 	"bloodmagic"
 ];
@@ -84,6 +87,8 @@ for item in itemsStageBlood{
 	addItemStage("Blood", item);
 }
 
+///////////////////////////////////////////
+
 var modsStageTinker as string[] = [
 	"tconstruct"
 ];
@@ -101,6 +106,28 @@ var itemStageTinker as IIngredient[] = [
 for item in itemsStageTinker{
 	addItemStage("Tinker", item);
 }
+
+///////////////////////////////////////////
+
+var modsStageEngineering as string[] = [
+	"immersiveengineering"
+];
+
+for mod in modsStageEngineering{
+
+	mods.ItemStages.stageModItems("Engineering", mod);
+	Recipes.setRecipeStageByMod("Engineering", mod);
+}
+
+var itemStageEngineering as IIngredient[] = [
+	
+];
+
+for item in itemsStageEngineering{
+	addItemStage("Engineering", item);
+}
+
+///////////////////////////////////////////
 
 /*
 var modsStageTwo as string[] = [
