@@ -62,7 +62,11 @@ for item in itemsStageElf{
 
 var itemStageGaia as IIngredient[] = [
 	<botania:pylon:2>
-]
+];
+
+for item in itemsStageGaia{
+	addItemStage("Gaia", item);
+}
 /*
 var modsStageTwo as string[] = [
 	"botania",
