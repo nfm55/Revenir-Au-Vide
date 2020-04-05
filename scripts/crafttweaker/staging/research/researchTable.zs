@@ -34,15 +34,7 @@ function init(){
         .setTitle("rav.research.gaia.title")
         .setDescription("rav.research.gaia.description")
         .addCondition(
-            <item:contenttweaker:ash_ingot>*16,
-            <ore:ingotDawnstone>.firstItem*4,
-            <ore:ingotBronze>.firstItem*4,
-            <ore:ingotElectrum>.firstItem*4,
-            <ore:ingotLead>.firstItem*8,
-            <ore:ingotAluminum>.firstItem*8,
-            <ore:ingotNickel>.firstItem*8,
-            <ore:ingotIron>.firstItem*8,
-            <contenttweaker:obsidian_ash>*32
+            
             )
         .setRewardStages("gaia")
         .setRewardCommands(fireworks_big, title("远古仪式的认知"), sound, fireworks_small)
