@@ -112,6 +112,21 @@ var itemStageQi_extract as IIngredient[] = [
 for item in itemsStageQi_extract{
 	addItemStage("qi_extract", item);
 }
+//qi_cohesion
+
+var itemStageQi_cohesion as IIngredient[] = [
+	<bloodmagic:blood_shard>,
+	<bloodmagic:bloodmagic:bound_sword>,
+	<bloodmagic:bloodmagic:bound_axe>,
+	<bloodmagic:bloodmagic:bound_pickaxe>,
+	<bloodmagic:bloodmagic:bound_shovel>
+	//<bloodmagic:bloodmagic:bound_bow>
+
+];
+
+for item in itemsStageQi_cohesion{
+	addItemStage("qi_cohesion", item);
+}
 
 ///////////////////////////////////////////
 
