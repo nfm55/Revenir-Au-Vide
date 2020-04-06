@@ -105,7 +105,8 @@ var itemStageQi_extract as IIngredient[] = [
 	<bloodmagic:sentient_shovel:0>,
 	<bloodmagic:sentient_bow:0>,
 	<bloodmagic:monster_soul>,
-	<bloodmagic:soul_gem>
+	<bloodmagic:soul_gem>,
+	<bloodmagic:soul_forge>
 ];
 
 for item in itemsStageQi_extract{
