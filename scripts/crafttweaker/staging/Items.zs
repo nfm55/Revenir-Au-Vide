@@ -149,7 +149,7 @@ for mods in modsStageBuilding_structure{
 
 var itemStageBuilding_structure as IIngredient[] = [
 	<immersiveengineering:stone_decoration:2>,
-	<immersivetech:stone_decoration:0>
+	//<immersivetech:stone_decoration:0>
 ];
 
 for item in itemsStageBuilding_structure{
