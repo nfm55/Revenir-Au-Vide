@@ -127,11 +127,7 @@ function init(){
         .addCondition(
 
         )
-<<<<<<< HEAD
-        .setRewardStages('tinker')
-=======
-        .setRewardStages("Tinker")
->>>>>>> af3525698fa8c1976ec4ef6975f5aacfef122660
+        .setRewardStages("tinker")
         .setRewardCommands(fireworks_big, title("粗浅的材料认知"), sound, fireworks_small)
         .build();
      ResearchTable.builder("工具结构分析",c)
@@ -187,11 +183,7 @@ function init(){
         .addCondition(
 
         )
-<<<<<<< HEAD
         .setRewardStages('engineering')
-=======
-        .setRewardStages("Engineering")
->>>>>>> af3525698fa8c1976ec4ef6975f5aacfef122660
         .setRewardCommands(fireworks_big, title("神奇的想法"), sound, fireworks_small)
         .build();
      ResearchTable.builder("燃料理论革命",c)
