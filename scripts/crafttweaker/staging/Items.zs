@@ -112,7 +112,6 @@ var itemStageQi_extract as IIngredient[] = [
 for item in itemsStageQi_extract{
 	addItemStage("qi_extract", item);
 }
-//qi_cohesion
 
 var itemStageQi_cohesion as IIngredient[] = [
 	<bloodmagic:blood_shard>,
@@ -127,6 +126,19 @@ var itemStageQi_cohesion as IIngredient[] = [
 for item in itemsStageQi_cohesion{
 	addItemStage("qi_cohesion", item);
 }
+
+var itemStageCeremony_to_understand as IIngredient[] = [
+	<bloodmagic:ritual_controller>,
+	<bloodmagic:ritual_stone>,
+	<bloodmagic:activation_crystal>,
+	<bloodmagic:inscription_tool>,
+	<bloodmagic:ritual_diviner>
+];
+
+for item in itemsStageCeremony_to_understand{
+	addItemStage("ceremony_to_understand", item);
+}
+
 
 ///////////////////////////////////////////
 
