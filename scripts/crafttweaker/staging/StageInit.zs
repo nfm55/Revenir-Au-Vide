@@ -3,14 +3,14 @@
 import mods.zenstages.ZenStager;
 
 var StageOne = ZenStager.initStage("one");
-var StageElf = ZenStager.initStage("Elf");
-var StageGaia = ZenStager.initStage("Gaia");
-var StageBlood = ZenStager.initStage("Blood");
-var StageTinker = ZenStager.initStage("Tinker");
-var StageEngineering = ZenStager.initStage("Engineering");
-var StageTwo = ZenStager.initStage("Two");
-var StageThermal = ZenStager.initStage("Thermal");
-var StageEIO = ZenStager.initStage("EIO");
-var StageMek = ZenStager.initStage("Mek");
+var StageElf = ZenStager.initStage("elf");
+var StageGaia = ZenStager.initStage("gaia");
+var StageBlood = ZenStager.initStage("blood");
+var StageTinker = ZenStager.initStage("tinker");
+var StageEngineering = ZenStager.initStage("engineering");
+var StageTwo = ZenStager.initStage("two");
+var StageThermal = ZenStager.initStage("thermal");
+var StageEIO = ZenStager.initStage("eio");
+var StageMek = ZenStager.initStage("mek");
 
-var StageBanned = ZenStager.initStage("Banned");
+var StageBanned = ZenStager.initStage("banned");

@@ -3,14 +3,14 @@
 import mods.zenstages.ZenStager;
 
 static StageOne = ZenStager.getStage("one");
-static StageElf = ZenStager.getStage("Elf");
-static StageGaia = ZenStager.getStage("Gaia");
-static StageBlood = ZenStager.getStage("Blood");
-static StageTinker = ZenStager.getStage("Tinker");
-static StageEngineering = ZenStager.getStage("Engineering");
-static StageTwo = ZenStager.getStage("Two");
-static StageThermal = ZenStager.getStage("Thermal");
-static StageEIO = ZenStager.getStage("EIO");
-static StageMek = ZenStager.getStage("Mek");
+static StageElf = ZenStager.getStage("elf");
+static StageGaia = ZenStager.getStage("gaia");
+static StageBlood = ZenStager.getStage("blood");
+static StageTinker = ZenStager.getStage("tinker");
+static StageEngineering = ZenStager.getStage("engineering");
+static StageTwo = ZenStager.getStage("two");
+static StageThermal = ZenStager.getStage("thermal");
+static StageEIO = ZenStager.getStage("eio");
+static StageMek = ZenStager.getStage("mek");
 
-static StageBanned = ZenStager.getStage("Banned");
+static StageBanned = ZenStager.getStage("banned");

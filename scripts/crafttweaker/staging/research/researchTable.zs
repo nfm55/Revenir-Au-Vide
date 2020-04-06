@@ -24,7 +24,7 @@ function init(){
             <item:botania:manaresource:1>*4,
             <item:botania:manaresource:2>*4
             )
-        .setRewardStages("Elf")
+        .setRewardStages("elf")
         .setRewardCommands(fireworks_big, title("有关精灵造物的认识"), sound, fireworks_small)
         .build();
 
@@ -127,7 +127,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('Tinker')
+        .setRewardStages('tinker')
         .setRewardCommands(fireworks_big, title("粗浅的材料认知"), sound, fireworks_small)
         .build();
      ResearchTable.builder("工具结构分析",c)
@@ -183,7 +183,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('Engineering')
+        .setRewardStages('engineering')
         .setRewardCommands(fireworks_big, title("神奇的想法"), sound, fireworks_small)
         .build();
      ResearchTable.builder("燃料理论革命",c)

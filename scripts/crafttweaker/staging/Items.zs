@@ -9,17 +9,17 @@ import mods.ItemStages.removeItemStage;
 var allStages as string[] = [
 
 	"one",
-	"Elf",
-	"Gaia",
-	"Blood",
-	"Tinker",
-	"Engineering",
-	"Two",
-	"Thermal",
-	"EIO",
-	"Mek",
+	"elf",
+	"gaia",
+	"blood",
+	"tinker",
+	"engineering",
+	"two",
+	"thermal",
+	"eio",
+	"mek",
 	
-	"Banned"
+	"banned"
 
 ];
 ///////////////////////////////////////////
@@ -56,7 +56,7 @@ val itemsStageElf as IIngredient[] = [
 ];
 
 for item in itemsStageElf{
-	addItemStage("Elf", item);
+	addItemStage("elf", item);
 }
 
 ////////////////////////////////////////////
@@ -74,7 +74,7 @@ var itemStageGaia as IIngredient[] = [
 ];
 
 for item in itemsStageGaia{
-	addItemStage("Gaia", item);
+	addItemStage("gaia", item);
 }
 
 ///////////////////////////////////////////
@@ -85,8 +85,8 @@ var modsStageBlood as string[] = [
 
 for mod in modsStageBlood{
 
-	mods.ItemStages.stageModItems("Blood", mod);
-	Recipes.setRecipeStageByMod("Blood", mod);
+	mods.ItemStages.stageModItems("blood", mod);
+	Recipes.setRecipeStageByMod("blood", mod);
 }
 
 var itemStageBlood as IIngredient[] = [
@@ -94,7 +94,7 @@ var itemStageBlood as IIngredient[] = [
 ];
 
 for item in itemsStageBlood{
-	addItemStage("Blood", item);
+	addItemStage("blood", item);
 }
 
 var itemStageQi_extract as IIngredient[] = [
@@ -136,8 +136,8 @@ var modsStageTinker as string[] = [
 
 for mod in modsStageTinker{
 
-	mods.ItemStages.stageModItems("Tinker", mod);
-	Recipes.setRecipeStageByMod("Tinker", mod);
+	mods.ItemStages.stageModItems("tinker", mod);
+	Recipes.setRecipeStageByMod("tinker", mod);
 }
 
 var itemStageTinker as IIngredient[] = [
@@ -145,7 +145,7 @@ var itemStageTinker as IIngredient[] = [
 ];
 
 for item in itemsStageTinker{
-	addItemStage("Tinker", item);
+	addItemStage("tinker", item);
 }
 
 ///////////////////////////////////////////
@@ -156,8 +156,8 @@ var modsStageEngineering as string[] = [
 
 for mod in modsStageEngineering{
 
-	mods.ItemStages.stageModItems("Engineering", mod);
-	Recipes.setRecipeStageByMod("Engineering", mod);
+	mods.ItemStages.stageModItems("engineering", mod);
+	Recipes.setRecipeStageByMod("engineering", mod);
 }
 
 var itemStageEngineering as IIngredient[] = [
@@ -165,7 +165,7 @@ var itemStageEngineering as IIngredient[] = [
 ];
 
 for item in itemsStageEngineering{
-	addItemStage("Engineering", item);
+	addItemStage("engineering", item);
 }
 
 var modsStageBuilding_structure as string[] = [
