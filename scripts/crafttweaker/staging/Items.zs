@@ -26,9 +26,9 @@ var allStages as string[] = [
 var modsStageOne as string[] = [
 	"botanicadds",
 	"botanianeedsit",
-	"immersiveengineering",
+	//"immersiveengineering",
 	"extendedcrafting",
-	"bloodmagic",
+	//"bloodmagic",
 	"modularmachinery",
 	"modulardiversity",
 	"akashictome",
