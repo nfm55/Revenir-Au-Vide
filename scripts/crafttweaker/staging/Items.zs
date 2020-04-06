@@ -26,9 +26,9 @@ var allStages as string[] = [
 var modsStageOne as string[] = [
 	"botanicadds",
 	"botanianeedsit",
-	//"immersiveengineering",
+	"immersiveengineering",
 	"extendedcrafting",
-	//"bloodmagic",
+	"bloodmagic",
 	"modularmachinery",
 	"modulardiversity",
 	"akashictome",
@@ -90,8 +90,7 @@ for mod in modsStageBlood{
 }
 
 var itemStageBlood as IIngredient[] = [
-	//knowledge_of_bloody_act
-	<contenttweaker:knowledge_of_bloody_act>
+
 ];
 
 for item in itemsStageBlood{
