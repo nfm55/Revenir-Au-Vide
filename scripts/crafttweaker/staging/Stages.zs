@@ -1,16 +1,27 @@
-
 #priority 2999
 import mods.zenstages.ZenStager;
-
 static StageOne = ZenStager.getStage("one");
+static StageTwo = ZenStager.getStage("two");
 static StageElf = ZenStager.getStage("elf");
 static StageGaia = ZenStager.getStage("gaia");
 static StageBlood = ZenStager.getStage("blood");
 static StageTinker = ZenStager.getStage("tinker");
 static StageEngineering = ZenStager.getStage("engineering");
-static StageTwo = ZenStager.getStage("two");
 static StageThermal = ZenStager.getStage("thermal");
-static StageEIO = ZenStager.getStage("eio");
+static StageEio = ZenStager.getStage("eio");
 static StageMek = ZenStager.getStage("mek");
-
-static StageBanned = ZenStager.getStage("banned");
+static StageGaia_Hou = ZenStager.getStage("gaia_hou");
+static StageQi_Extract = ZenStager.getStage("qi_extract");
+static StageQi_Cohesion = ZenStager.getStage("qi_cohesion");
+static StageCeremony_To_Understand = ZenStager.getStage("ceremony_to_understand");
+static StageUnderstand_Life = ZenStager.getStage("understand_life");
+static StageOne_Is_All = ZenStager.getStage("one_is_all");
+static StageAnalyze = ZenStager.getStage("analyze");
+static StageMineral_Analysis = ZenStager.getStage("mineral_analysis");
+static StageUtilization_Of_New_Materials = ZenStager.getStage("utilization_of_new_materials");
+static StageMaterial_Of_Cognitive = ZenStager.getStage("material_of_cognitive");
+static StageFuel_Revolution = ZenStager.getStage("fuel_revolution");
+static StageMetal_Exploration = ZenStager.getStage("metal_exploration");
+static StageBuilding_Structure = ZenStager.getStage("building_structure");
+static StageTechnology_Of_Cognitive = ZenStager.getStage("technology_of_cognitive");
+static StageNew_World = ZenStager.getStage("new_world");
