@@ -60,7 +60,15 @@ for item in itemsStageElf{
 }
 
 var itemStageGaia as IIngredient[] = [
-	<botania:pylon:2>
+	<botania:pylon:2>,
+	<botania:spreader:3>,
+	<botania:rune:15>,
+	<botania:rune:13>,
+	<botania:rune:10>,
+	<botania:rune:14>,
+	<botania:rune:12>,
+	<botania:rune:11>,
+	<botania:rune:9>
 ];
 
 for item in itemsStageGaia{
