@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/something_connected_to_the_world"
+  }
+}
