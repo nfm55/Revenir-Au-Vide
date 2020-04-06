@@ -138,6 +138,24 @@ for item in itemsStageEngineering{
 	addItemStage("Engineering", item);
 }
 
+var modsStageBuilding_structure as string[] = [
+	"immersivepetroleum",
+	"immersivetech"
+];
+
+for mods in modsStageBuilding_structure{
+	mods.ItemStages.stageModItems("building_structure", mod);
+	Recipes.setRecipeStageByMod("building_structure", mod);
+}
+
+var itemStageBuilding_structure as IIngredient[] = [
+	<immersiveengineering:stone_decoration:2>,
+	<immersivetech:stone_decoration:0>
+];
+
+for item in itemsStageBuilding_structure{
+	addItemStage("building_structure", item);
+}
 ///////////////////////////////////////////
 
 /*
