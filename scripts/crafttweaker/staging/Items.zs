@@ -97,6 +97,21 @@ for item in itemsStageBlood{
 	addItemStage("Blood", item);
 }
 
+var itemStageQi_extract as IIngredient[] = [
+	<bloodmagic:soul_snare:0>,
+	<bloodmagic:sentient_sword:0>,
+	<bloodmagic:sentient_axe:0>,
+	<bloodmagic:sentient_pickaxe:0>,
+	<bloodmagic:sentient_shovel:0>,
+	<bloodmagic:sentient_bow:0>,
+	<bloodmagic:monster_soul>,
+	<bloodmagic:soul_gem>
+];
+
+for item in itemsStageQi_extract{
+	addItemStage("qi_extract", item);
+}
+
 ///////////////////////////////////////////
 
 var modsStageTinker as string[] = [
