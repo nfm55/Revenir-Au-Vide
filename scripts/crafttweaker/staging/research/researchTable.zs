@@ -60,7 +60,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('life_beginning')
+        .setRewardStages('blood')
         .setRewardCommands(fireworks_big, title("生命"), sound, fireworks_small)
         .build();
      ResearchTable.builder("生命源质提取",c)
@@ -127,7 +127,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('theory_of_material')
+        .setRewardStages('Tinker')
         .setRewardCommands(fireworks_big, title("粗浅的材料认知"), sound, fireworks_small)
         .build();
      ResearchTable.builder("工具结构分析",c)
@@ -183,7 +183,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('technology')
+        .setRewardStages('Engineering')
         .setRewardCommands(fireworks_big, title("神奇的想法"), sound, fireworks_small)
         .build();
      ResearchTable.builder("燃料理论革命",c)
