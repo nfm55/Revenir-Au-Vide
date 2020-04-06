@@ -9,17 +9,17 @@ import mods.ItemStages.removeItemStage;
 var allStages as string[] = [
 
 	"one",
-	"Elf",
-	"Gaia",
-	"Blood",
-	"Tinker",
-	"Engineering",
-	"Two",
-	"Thermal",
-	"EIO",
-	"Mek",
+	"elf",
+	"gaia",
+	"blood",
+	"tinker",
+	"engineering",
+	"two",
+	"thermal",
+	"eio",
+	"mek",
 	
-	"Banned"
+	"banned"
 
 ];
 ///////////////////////////////////////////
@@ -56,7 +56,7 @@ val itemsStageElf as IIngredient[] = [
 ];
 
 for item in itemsStageElf{
-	addItemStage("Elf", item);
+	addItemStage("elf", item);
 }
 
 ////////////////////////////////////////////
@@ -74,7 +74,7 @@ var itemStageGaia as IIngredient[] = [
 ];
 
 for item in itemsStageGaia{
-	addItemStage("Gaia", item);
+	addItemStage("gaia", item);
 }
 
 ///////////////////////////////////////////
@@ -85,17 +85,47 @@ var modsStageBlood as string[] = [
 
 for mod in modsStageBlood{
 
-	mods.ItemStages.stageModItems("Blood", mod);
-	Recipes.setRecipeStageByMod("Blood", mod);
+	mods.ItemStages.stageModItems("blood", mod);
+	Recipes.setRecipeStageByMod("blood", mod);
 }
 
 var itemStageBlood as IIngredient[] = [
-	//knowledge_of_bloody_act
-	<contenttweaker:knowledge_of_bloody_act>
+
 ];
 
 for item in itemsStageBlood{
-	addItemStage("Blood", item);
+	addItemStage("blood", item);
+}
+
+var itemStageQi_extract as IIngredient[] = [
+	<bloodmagic:soul_snare:0>,
+	<bloodmagic:sentient_sword:0>,
+	<bloodmagic:sentient_axe:0>,
+	<bloodmagic:sentient_pickaxe:0>,
+	<bloodmagic:sentient_shovel:0>,
+	<bloodmagic:sentient_bow:0>,
+	<bloodmagic:monster_soul>,
+	<bloodmagic:soul_gem>,
+	<bloodmagic:soul_forge>
+];
+
+for item in itemsStageQi_extract{
+	addItemStage("qi_extract", item);
+}
+//qi_cohesion
+
+var itemStageQi_cohesion as IIngredient[] = [
+	<bloodmagic:blood_shard>,
+	<bloodmagic:bloodmagic:bound_sword>,
+	<bloodmagic:bloodmagic:bound_axe>,
+	<bloodmagic:bloodmagic:bound_pickaxe>,
+	<bloodmagic:bloodmagic:bound_shovel>
+	//<bloodmagic:bloodmagic:bound_bow>
+
+];
+
+for item in itemsStageQi_cohesion{
+	addItemStage("qi_cohesion", item);
 }
 
 ///////////////////////////////////////////
@@ -106,8 +136,8 @@ var modsStageTinker as string[] = [
 
 for mod in modsStageTinker{
 
-	mods.ItemStages.stageModItems("Tinker", mod);
-	Recipes.setRecipeStageByMod("Tinker", mod);
+	mods.ItemStages.stageModItems("tinker", mod);
+	Recipes.setRecipeStageByMod("tinker", mod);
 }
 
 var itemStageTinker as IIngredient[] = [
@@ -115,7 +145,7 @@ var itemStageTinker as IIngredient[] = [
 ];
 
 for item in itemsStageTinker{
-	addItemStage("Tinker", item);
+	addItemStage("tinker", item);
 }
 
 ///////////////////////////////////////////
@@ -126,8 +156,8 @@ var modsStageEngineering as string[] = [
 
 for mod in modsStageEngineering{
 
-	mods.ItemStages.stageModItems("Engineering", mod);
-	Recipes.setRecipeStageByMod("Engineering", mod);
+	mods.ItemStages.stageModItems("engineering", mod);
+	Recipes.setRecipeStageByMod("engineering", mod);
 }
 
 var itemStageEngineering as IIngredient[] = [
@@ -135,9 +165,27 @@ var itemStageEngineering as IIngredient[] = [
 ];
 
 for item in itemsStageEngineering{
-	addItemStage("Engineering", item);
+	addItemStage("engineering", item);
 }
 
+var modsStageBuilding_structure as string[] = [
+	"immersivepetroleum",
+	"immersivetech"
+];
+
+for mods in modsStageBuilding_structure{
+	mods.ItemStages.stageModItems("building_structure", mod);
+	Recipes.setRecipeStageByMod("building_structure", mod);
+}
+
+var itemStageBuilding_structure as IIngredient[] = [
+	<immersiveengineering:stone_decoration:2>,
+	//<immersivetech:stone_decoration:0>
+];
+
+for item in itemsStageBuilding_structure{
+	addItemStage("building_structure", item);
+}
 ///////////////////////////////////////////
 
 /*
