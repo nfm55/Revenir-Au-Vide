@@ -48,7 +48,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('gaia_hou')
+        .setRewardStages("gaia_hou")
         .setRewardCommands(fireworks_big, title("来自精灵的最后"), sound, fireworks_small)
         .build();
     //血魔法的一系列研究
@@ -60,7 +60,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('blood')
+        .setRewardStages("blood")
         .setRewardCommands(fireworks_big, title("生命"), sound, fireworks_small)
         .build();
      ResearchTable.builder("生命源质提取",c)
@@ -71,7 +71,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('qi_extract')
+        .setRewardStages("qi_extract")
         .setRewardCommands(fireworks_big, title("提取源质(物理）"), sound, fireworks_small)
         .build();
      ResearchTable.builder("气血碎片凝聚",c)
@@ -82,7 +82,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('qi_cohesion')
+        .setRewardStages("qi_cohesion")
         .setRewardCommands(fireworks_big, title("凝聚源质(物理）"), sound, fireworks_small)
         .build();
      ResearchTable.builder("血腥仪式理解",c)
@@ -93,7 +93,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('ceremony_to_understand')
+        .setRewardStages("ceremony_to_understand")
         .setRewardCommands(fireworks_big, title("仪式入门"), sound, fireworks_small)
         .build();
      ResearchTable.builder("世界认知：生命",c)
@@ -104,7 +104,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('understand_life')
+        .setRewardStages("understand_life")
         .setRewardCommands(fireworks_big, title("仪式代师"), sound, fireworks_small)
         .build();
      ResearchTable.builder("创世：一即全",c)
@@ -115,7 +115,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('one_is_all')
+        .setRewardStages("one_is_all")
         .setRewardCommands(fireworks_big, title("一生二，二生三，三生万物"), sound, fireworks_small)
         .build();
     //匠魂的一系列研究
@@ -127,7 +127,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('Tinker')
+        .setRewardStages("Tinker")
         .setRewardCommands(fireworks_big, title("粗浅的材料认知"), sound, fireworks_small)
         .build();
      ResearchTable.builder("工具结构分析",c)
@@ -138,7 +138,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('analyze')
+        .setRewardStages("analyze")
         .setRewardCommands(fireworks_big, title("分析工具结构"), sound, fireworks_small)
         .build();
      ResearchTable.builder("地狱矿产研究",c)
@@ -149,7 +149,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('mineral_analysis')
+        .setRewardStages("mineral_analysis")
         .setRewardCommands(fireworks_big, title("来自深渊的矿物"), sound, fireworks_small)
         .build();
      ResearchTable.builder("新材料利用测试",c)
@@ -160,7 +160,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('utilization_of_new_materials')
+        .setRewardStages("utilization_of_new_materials")
         .setRewardCommands(fireworks_big, title("全新版本"), sound, fireworks_small)
         .build();
      ResearchTable.builder("世界认知：材料",c)
@@ -171,7 +171,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('material_of_cognitive')
+        .setRewardStages("material_of_cognitive")
         .setRewardCommands(fireworks_big, title("材料大师"), sound, fireworks_small)
         .build();
      //沉浸工艺的一系列研究
@@ -183,7 +183,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('Engineering')
+        .setRewardStages("Engineering")
         .setRewardCommands(fireworks_big, title("神奇的想法"), sound, fireworks_small)
         .build();
      ResearchTable.builder("燃料理论革命",c)
@@ -194,7 +194,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('fuel_revolution')
+        .setRewardStages("fuel_revolution")
         .setRewardCommands(fireworks_big, title("燃烧理论"), sound, fireworks_small)
         .build();
      ResearchTable.builder("金属调质探索",c)
@@ -205,7 +205,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('metal_exploration')
+        .setRewardStages("metal_exploration")
         .setRewardCommands(fireworks_big, title("金属调质探索"), sound, fireworks_small)
         .build();
      ResearchTable.builder("钢结构建造",c)
@@ -216,7 +216,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('building_structure')
+        .setRewardStages("building_structure")
         .setRewardCommands(fireworks_big, title("神奇的力学"), sound, fireworks_small)
         .build();
      ResearchTable.builder("世界认知：技术",c)
@@ -227,7 +227,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('technology_of_cognitive')
+        .setRewardStages("technology_of_cognitive")
         .setRewardCommands(fireworks_big, title("技术认知"), sound, fireworks_small)
         .build();
     //模块化机器的亿些研究
@@ -239,7 +239,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('new_world')
+        .setRewardStages("new_world")
         .setRewardCommands(fireworks_big, title(""), sound, fireworks_small)
         .build();
         /*ResearchTable.builder("",c)
@@ -250,7 +250,7 @@ function init(){
         .addCondition(
 
         )
-        .setRewardStages('new_world')
+        .setRewardStages("new_world")
         .setRewardCommands(fireworks_big, title(""), sound, fireworks_small)
         .build();
         
