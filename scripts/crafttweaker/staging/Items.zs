@@ -160,6 +160,17 @@ for item in itemsStageTinker{
 	addItemStage("tinker", item);
 }
 
+var itemStageMineral_analysis as IIngredient[] = [
+	<tconstruct:ore:0>,
+	<tconstruct:ore:1>,
+	<tconstruct:ingots:0>,
+	<tconstruct:ingots:1>,
+	<tconstruct:ingots:2>,
+];
+
+for item in itemsMineral_analysis{
+	addItemStage("mineral_analysis", item);
+}
 ///////////////////////////////////////////
 
 var modsStageEngineering as string[] = [
