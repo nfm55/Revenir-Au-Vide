@@ -191,6 +191,16 @@ for item in itemsStageEngineering{
 	addItemStage("engineering", item);
 }
 
+var itemStageFuel_revolution as IIngredient[] = [
+	<immersiveengineering:stone_decoration:10>,
+	<immersiveengineering:stone_decoration:1>
+];
+
+for item in itemsStageFuel_revolution{
+	addItemStage("fuel_revolution", item);
+}
+
+
 var modsStageBuilding_structure as string[] = [
 	"immersivepetroleum",
 	"immersivetech"
