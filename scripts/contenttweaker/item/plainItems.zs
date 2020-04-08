@@ -19,7 +19,8 @@ var items as string[] = [
 	"Connection_of_the_world",
 	"Easter_eggs",
 	"strange_things",
-	"particle"
+	"particle",
+	"blood_tears"
 ];
 
 //物品注册
