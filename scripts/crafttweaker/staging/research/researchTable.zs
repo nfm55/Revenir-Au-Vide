@@ -186,7 +186,7 @@ function init(){
         .setRewardStages('engineering')
         .setRewardCommands(fireworks_big, title("神奇的想法"), sound, fireworks_small)
         .build();
-     ResearchTable.builder("燃料理论革命",c)
+     ResearchTable.builder("手工部件磨制",c)
         .setRequiredResearches("世界理论：技术")
         .setIcons( )
         .setTitle("rav.fuel_revolution.tittle")
@@ -197,8 +197,8 @@ function init(){
         .setRewardStages("fuel_revolution")
         .setRewardCommands(fireworks_big, title("燃烧理论"), sound, fireworks_small)
         .build();
-     ResearchTable.builder("金属调质探索",c)
-        .setRequiredResearches("燃烧理论革命")
+     ResearchTable.builder("铸造工艺探索",c)
+        .setRequiredResearches("手工部件磨制")
         .setIcons( )
         .setTitle("rav.metal_exploration.tittle")
         .setDescription("rav.metal_exploration.description")
@@ -208,8 +208,8 @@ function init(){
         .setRewardStages("metal_exploration")
         .setRewardCommands(fireworks_big, title("金属调质探索"), sound, fireworks_small)
         .build();
-     ResearchTable.builder("钢结构建造",c)
-        .setRequiredResearches("金属调质探索")
+     ResearchTable.builder("先进工具制作",c)
+        .setRequiredResearches("铸造工艺探索")
         .setIcons( )
         .setTitle("rav.building_structure.tittle")
         .setDescription("rav.building_structure.description")
@@ -217,10 +217,10 @@ function init(){
 
         )
         .setRewardStages("building_structure")
-        .setRewardCommands(fireworks_big, title("神奇的力学"), sound, fireworks_small)
+        .setRewardCommands(fireworks_big, title("更加强大的工具制作方法"), sound, fireworks_small)
         .build();
      ResearchTable.builder("世界认知：技术",c)
-        .setRequiredResearches("钢结构建造")
+        .setRequiredResearches("先进工具制作")
         .setIcons( )
         .setTitle("rav.technology_of_cognitive.tittle")
         .setDescription("rav.technology_of_cognitive.description")
