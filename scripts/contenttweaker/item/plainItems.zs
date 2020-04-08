@@ -20,7 +20,9 @@ var items as string[] = [
 	"Easter_eggs",
 	"strange_things",
 	"particle",
-	"blood_tears"
+	"blood_tears",
+	"the_rune_of_dawn",
+	"the_rune_of_twilight"
 ];
 
 //物品注册
