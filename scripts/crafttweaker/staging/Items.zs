@@ -73,7 +73,7 @@ var itemStageGaia as IIngredient[] = [
 	<botania:rune:9>
 ];
 
-for item in itemsStageGaia{
+for item in itemStageGaia{
 	addItemStage("gaia", item);
 }
 
@@ -93,7 +93,7 @@ var itemStageBlood as IIngredient[] = [
 
 ];
 
-for item in itemsStageBlood{
+for item in itemStageBlood{
 	addItemStage("blood", item);
 }
 
@@ -109,7 +109,7 @@ var itemStageQi_extract as IIngredient[] = [
 	<bloodmagic:soul_forge>
 ];
 
-for item in itemsStageQi_extract{
+for item in itemStageQi_extract{
 	addItemStage("qi_extract", item);
 }
 
@@ -123,7 +123,7 @@ var itemStageQi_cohesion as IIngredient[] = [
 
 ];
 
-for item in itemsStageQi_cohesion{
+for item in itemStageQi_cohesion{
 	addItemStage("qi_cohesion", item);
 }
 
@@ -135,7 +135,7 @@ var itemStageCeremony_to_understand as IIngredient[] = [
 	<bloodmagic:ritual_diviner>
 ];
 
-for item in itemsStageCeremony_to_understand{
+for item in itemStageCeremony_to_understand{
 	addItemStage("ceremony_to_understand", item);
 }
 
@@ -156,7 +156,7 @@ var itemStageTinker as IIngredient[] = [
 	
 ];
 
-for item in itemsStageTinker{
+for item in itemStageTinker{
 	addItemStage("tinker", item);
 }
 
@@ -168,7 +168,7 @@ var itemStageMineral_analysis as IIngredient[] = [
 	<tconstruct:ingots:2>,
 ];
 
-for item in itemsMineral_analysis{
+for item in itemMineral_analysis{
 	addItemStage("mineral_analysis", item);
 }
 ///////////////////////////////////////////
@@ -187,7 +187,7 @@ var itemStageEngineering as IIngredient[] = [
 	
 ];
 
-for item in itemsStageEngineering{
+for item in itemStageEngineering{
 	addItemStage("engineering", item);
 }
 
@@ -196,7 +196,7 @@ var itemStageFuel_revolution as IIngredient[] = [
 	<immersiveengineering:stone_decoration:1>
 ];
 
-for item in itemsStageFuel_revolution{
+for item in itemStageFuel_revolution{
 	addItemStage("fuel_revolution", item);
 }
 
@@ -206,7 +206,7 @@ var modsStageBuilding_structure as string[] = [
 	"immersivetech"
 ];
 
-for mods in modsStageBuilding_structure{
+for mods in modStageBuilding_structure{
 	mods.ItemStages.stageModItems("building_structure", mod);
 	Recipes.setRecipeStageByMod("building_structure", mod);
 }
@@ -216,6 +216,6 @@ var itemStageBuilding_structure as IIngredient[] = [
 	//<immersivetech:stone_decoration:0>
 ];
 
-for item in itemsStageBuilding_structure{
+for item in itemStageBuilding_structure{
 	addItemStage("building_structure", item);
 }
