@@ -33,3 +33,18 @@ Agglomeration.addRecipe(
     null,
     null
 );
+//blood_tears
+//血泪仪式
+Agglomeration.addRecipe(
+    <contenttweaker:blood_tears>, //输出
+    [ ] as IIngredient[], //输入
+    300000, //耗魔 默认为500,000（同泰拉钢）
+    0xFFF143, //起始粒子颜色
+    0xFE4BE8, //终止粒子颜色
+    <botania:storage:1>, //仪式正中：泰拉钢块
+    <botania:livingwood>, //仪式边缘：活木
+    <botania:livingrock>, //仪式四角：活石
+    <botania:storage:0>, //正中嬗变/枯竭
+    <minecraft:log>, //边缘嬗变/枯竭
+    <minecraft:stone> //四角嬗变/枯竭
+);
