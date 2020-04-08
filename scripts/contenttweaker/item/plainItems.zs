@@ -22,7 +22,15 @@ var items as string[] = [
 	"particle",
 	"blood_tears",
 	"the_rune_of_dawn",
-	"the_rune_of_twilight"
+	"the_rune_of_twilight",
+	//符文粉
+	"rune_powder_of_fire",
+	"rune_powder_of_water",
+	"rune_powder_of_earth",
+	"rune_powder_of_wind",
+	"rune_powder_of_mana",
+	"rune_powder_of_dawn",
+	"rune_powder_of_twilight"
 ];
 
 //物品注册
