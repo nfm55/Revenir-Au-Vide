@@ -16,7 +16,7 @@ var items as string[] = [
 	"double_compressed_void_matter",
 	"elf_will",
 	"knowledge_of_craftmen",
-	"Connection_of_the_world",
+	"connection_of_the_world",
 	"Easter_eggs",
 	"strange_things",
 	"particle",
