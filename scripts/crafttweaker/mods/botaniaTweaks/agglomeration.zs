@@ -39,8 +39,8 @@ Agglomeration.addRecipe(
     <contenttweaker:blood_tears>, //输出
     [<minecraft:ghast_tear>,<botania:manaresource:5> ] as IIngredient[], //输入
     500000, //耗魔 默认为500,000（同泰拉钢）
-    0xFFF143, //起始粒子颜色
-    0xFE4BE8, //终止粒子颜色
+    0xFF8C00, //起始粒子颜色
+    0xBC1717, //终止粒子颜色
     <botania:storage:1>, //仪式正中：泰拉钢块
     <botania:livingwood>, //仪式边缘：活木
     <botania:livingrock>, //仪式四角：活石
