@@ -1,5 +1,7 @@
 #priority 3000
+
 import mods.zenstages.ZenStager;
+
 var StageOne = ZenStager.initStage("one");
 var StageTwo = ZenStager.initStage("two");
 var StageElf = ZenStager.initStage("elf");
