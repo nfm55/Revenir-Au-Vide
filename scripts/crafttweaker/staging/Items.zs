@@ -45,10 +45,10 @@ static stageItemMap as IIngredient[][string] = {
 	],
 	"qi_cohesion" : [
 		<bloodmagic:blood_shard>,
-		<bloodmagic:bloodmagic:bound_sword>,
-		<bloodmagic:bloodmagic:bound_axe>,
-		<bloodmagic:bloodmagic:bound_pickaxe>,
-		<bloodmagic:bloodmagic:bound_shovel>
+		<bloodmagic:bound_sword>,
+		<bloodmagic:bound_axe>,
+		<bloodmagic:bound_pickaxe>,
+		<bloodmagic:bound_shovel>
 		//<bloodmagic:bloodmagic:bound_bow>
 	],
 	"ceremony_to_understand" : [
