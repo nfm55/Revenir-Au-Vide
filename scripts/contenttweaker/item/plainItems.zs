@@ -20,7 +20,7 @@ var items as string[] = [
 	"Easter_eggs",
 	"strange_things",
 	"particle",
-	"blood_tear",
+	"blood_tears",
 	"the_rune_of_dawn",
 	"the_rune_of_twilight",
 	//符文粉
