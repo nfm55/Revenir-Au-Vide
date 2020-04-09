@@ -20,7 +20,7 @@ var items as string[] = [
 	"Easter_eggs",
 	"strange_things",
 	"particle",
-	"blood_tears",
+	"blood_tear",
 	"the_rune_of_dawn",
 	"the_rune_of_twilight",
 	//符文粉
@@ -31,7 +31,6 @@ var items as string[] = [
 	"rune_powder_of_mana",
 	"rune_powder_of_dawn",
 	"rune_powder_of_twilight",
-	"blood_tear"
 ];
 
 //物品注册
