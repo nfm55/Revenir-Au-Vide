@@ -5,8 +5,9 @@ import crafttweaker.item.IIngredient;
 import mods.recipestages.Recipes;
 import mods.ItemStages.addItemStage;
 import mods.ItemStages.removeItemStage;
+import scripts.Util.stageUtil;
 
-static stageItemMap as IIngredient[string] = {
+static stageItemMap as IIngredient[][string] = {
 	"elf" : [
 		<botania:manaresource:7>,
 		<botania:manaresource:8>,

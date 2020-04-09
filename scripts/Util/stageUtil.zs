@@ -1,4 +1,4 @@
-#priority 100
+#priority 10000
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -19,7 +19,7 @@ static allStages as string[] = [
 	"mek",
 	
 	"banned"
-    
+
 ];
 
 //用阶段和modid设置mod阶段
