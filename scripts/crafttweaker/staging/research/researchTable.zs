@@ -9,7 +9,7 @@ function title(stage as string){
     return "title @s title {\"text\":\"恭喜，您已解锁 "+stage+" ！\"}";
 }
 function init(){
-    var c = ResearchTable.addCategory(<item:botania:lexicon>.withtag({}));
+    var c = ResearchTable.addCategory(<item:botania:lexicon>);
     //植物魔法一系列的研究
      ResearchTable.builder("精灵造物研究", c)
        
@@ -28,7 +28,7 @@ function init(){
         .setRewardCommands(fireworks_big, title("有关精灵造物的认识"), sound, fireworks_small)
         .build();
 
-     ResearchTable.builder("远古仪式复现", c)
+     /*ResearchTable.builder("远古仪式复现", c)
         .setRequiredResearches("精灵造物研究")
         .setIcons(<item:botania:gaiahead>)
         .setTitle("rav.research.gaia.title")
@@ -242,7 +242,7 @@ function init(){
         .setRewardStages("new_world")
         .setRewardCommands(fireworks_big, title(""), sound, fireworks_small)
         .build();
-        /*ResearchTable.builder("",c)
+        ResearchTable.builder("",c)
         .setRequiredResearches("世界理论：新世界")
         .setIcons( )
         .setTitle("rav..tittle")
