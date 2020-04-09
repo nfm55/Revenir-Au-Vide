@@ -1,7 +1,7 @@
 #priority -100
 
-import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemTransformer;
 
 //虚空物质
@@ -18,23 +18,23 @@ function vmd(damage as int) as IIngredient{
 }
 
 //有序合成表
-val shapedRecipes as IIngredient[][][IItemStack] = {
+static shapedRecipes as IIngredient[][][IItemStack] = {
     //岩浆桶
     <minecraft:lava_bucket> : [
-        [vmd(30), vmd(30),vmd(30)],
-        [vmd(30), <minecraft:dirt> , vmd(30)], 
-        [vmd(30),vmd(30), vmd(30)]
+        [vmd(30) , vmd(30) , vmd(30)],
+        [vmd(30) , <minecraft:dirt> , vmd(30)], 
+        [vmd(30) , vmd(30) , vmd(30)]
     ],
     //水桶
     <minecraft:water_bucket> : [
-    	[vmd(30), vmd(30),vmd(30)],
-    	[vmd(30), <minecraft:grass> , vmd(30)],
-    	[vmd(30),vmd(30), vmd(30)]
+    	[vmd(30) , vmd(30) , vmd(30)],
+    	[vmd(30) , <minecraft:grass> , vmd(30)],
+    	[vmd(30) , vmd(30) , vmd(30)]
     ],
     //草（中文意）
     <minecraft:grass> : [
     	[null , null , null],
-    	[null , vmd(10), null],
+    	[null , vmd(10) , null],
     	[null , <minecraft:dirt> , null]
     ],
     //金锭
@@ -45,9 +45,9 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
     ],
     //矿工指环
     <baubles:ring> : [
-    	[vmd(1), vmd(1), vmd(1)],
-    	[vmd(1), null , vmd(1)],
-    	[vmd(1), vmd(1), vmd(1)]
+    	[vmd(1) , vmd(1) , vmd(1)],
+    	[vmd(1) , null , vmd(1)],
+    	[vmd(1) , vmd(1) , vmd(1)]
     ],
     //末影珍珠
     <minecraft:ender_pearl> : [
@@ -87,7 +87,7 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
     //铁矿石
     <minecraft:iron_ore> * 4 : [
     	[<minecraft:cobblestone> , <minecraft:cobblestone> , <minecraft:cobblestone>],
-    	[<minecraft:cobblestone> , vmd(50), <minecraft:cobblestone>],
+    	[<minecraft:cobblestone> , vmd(50) , <minecraft:cobblestone>],
     	[<minecraft:cobblestone> , <minecraft:cobblestone> , <minecraft:cobblestone>]
     ],
     //虚空物质
@@ -151,12 +151,12 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
     ],
     //树苗
     <minecraft:sapling> : [
-        [vmd(10),vmd(10), vmd(10)]
+        [vmd(10) , vmd(10) , vmd(10)]
     ],
     //原木
     <minecraft:log> * 8 : [
         [null , vmd(10)],
-        [vmd(10),null]
+        [vmd(10) , null]
     ],
     //压缩虚空物质
     cvm : [

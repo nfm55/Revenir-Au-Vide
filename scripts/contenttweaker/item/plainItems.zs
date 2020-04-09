@@ -30,7 +30,8 @@ var items as string[] = [
 	"rune_powder_of_wind",
 	"rune_powder_of_mana",
 	"rune_powder_of_dawn",
-	"rune_powder_of_twilight"
+	"rune_powder_of_twilight",
+	"blood_tear"
 ];
 
 //物品注册
