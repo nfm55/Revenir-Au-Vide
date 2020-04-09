@@ -8,6 +8,10 @@ import mods.ItemStages.removeItemStage;
 import scripts.Util.stageUtil;
 
 static stageItemMap as IItemStack[][string] = {
+	"one" : [
+		<contenttweaker:the_rune_of_dawn>,
+		<contenttweaker:the_rune_of_twilight>
+	],
 	"elf" : [
 		<botania:manaresource:7>,
 		<botania:manaresource:8>,
@@ -30,15 +34,20 @@ static stageItemMap as IItemStack[][string] = {
 		<botania:rune:9>
 	],
 	"blood" : [
-
+		<contenttweaker:rune_powder_of_fire>,
+		<contenttweaker:rune_powder_of_water>,
+		<contenttweaker:rune_powder_of_earth>,
+		<contenttweaker:rune_powder_of_wind>,
+		<contenttweaker:rune_powder_of_dawn>,
+		<contenttweaker:rune_powder_of_twilight>,
 	],
 	"qi_extract" : [
-		<bloodmagic:soul_snare:0>,
-		<bloodmagic:sentient_sword:0>,
-		<bloodmagic:sentient_axe:0>,
-		<bloodmagic:sentient_pickaxe:0>,
-		<bloodmagic:sentient_shovel:0>,
-		<bloodmagic:sentient_bow:0>,
+		<bloodmagic:soul_snare>,
+		<bloodmagic:sentient_sword>,
+		<bloodmagic:sentient_axe>,
+		<bloodmagic:sentient_pickaxe>,
+		<bloodmagic:sentient_shovel>,
+		<bloodmagic:sentient_bow>,
 		<bloodmagic:monster_soul>,
 		<bloodmagic:soul_gem>,
 		<bloodmagic:soul_forge>
@@ -53,10 +62,26 @@ static stageItemMap as IItemStack[][string] = {
 	],
 	"ceremony_to_understand" : [
 		<bloodmagic:ritual_controller>,
+		<bloodmagic:ritual_controller:1>,
+		<bloodmagic:ritual_controller:2>,
 		<bloodmagic:ritual_stone>,
+		<bloodmagic:ritual_stone:1>,
+		<bloodmagic:ritual_stone:2>,
+		<bloodmagic:ritual_stone:3>,
+		<bloodmagic:ritual_stone:4>,
+		<bloodmagic:ritual_stone:5>,
+		<bloodmagic:ritual_stone:6>,
 		<bloodmagic:activation_crystal>,
-		<bloodmagic:inscription_tool>,
-		<bloodmagic:ritual_diviner>
+		<bloodmagic:activation_crystal:1>,
+		<bloodmagic:inscription_tool:1>,
+		<bloodmagic:inscription_tool:2>,
+		<bloodmagic:inscription_tool:3>,
+		<bloodmagic:inscription_tool:4>,
+		<bloodmagic:inscription_tool:5>,
+		<bloodmagic:inscription_tool:6>,
+		<bloodmagic:ritual_diviner>,
+		<bloodmagic:ritual_diviner:1>,
+		<bloodmagic:ritual_diviner:2>
 	],
 	"tinker" : [
 
