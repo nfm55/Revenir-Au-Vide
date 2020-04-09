@@ -38,7 +38,7 @@ function setRecipeStageByID(stage as string , ID as string) as int{
 }
 
 //用配方产物设置配方阶段
-function setRecipeStageByItem(stage as string , item as IItemStack) as int{
+function setItemStageByItem(stage as string , item as IItemStack) as int{
     if(isNull(stage)||isNull(item))return 0;
     Recipes.setRecipeStage(stage , item);
 	ItemStages.addItemStage(stage , item);

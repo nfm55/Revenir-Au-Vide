@@ -83,6 +83,6 @@ static stageItemMap as IItemStack[][string] = {
 
 for stage , items in stageItemMap{
 	for item in items{
-		stageUtil.setRecipeStageByItem(stage , item);
+		stageUtil.setItemStageByItem(stage , item);
 	}
 }

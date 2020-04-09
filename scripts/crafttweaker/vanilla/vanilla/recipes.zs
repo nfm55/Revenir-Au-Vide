@@ -18,7 +18,7 @@ function vmd(damage as int) as IIngredient{
 }
 
 //有序合成表
-static shapedRecipes as IIngredient[][][IItemStack] = {
+val shapedRecipes as IIngredient[][][IItemStack] = {
     //岩浆桶
     <minecraft:lava_bucket> : [
         [vmd(30) , vmd(30) , vmd(30)],
@@ -159,13 +159,13 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [vmd(10) , null]
     ],
     //压缩虚空物质
-    cvm : [
+    <contenttweaker:compressed_void_matter> : [
         [vm , vm , vm],
         [vm , vm , vm],
         [vm , vm , vm]
     ],
     //双重压缩虚空物质
-    dcvm : [
+    <contenttweaker:double_compressed_void_matter> : [
         [cvm , cvm , cvm],
         [cvm , cvm , cvm],
         [cvm , cvm , cvm]
