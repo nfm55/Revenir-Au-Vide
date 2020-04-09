@@ -1,14 +1,14 @@
 #priority 2000
 #loader contenttweaker
 //导包
-	import mods.contenttweaker.VanillaFactory;
-	import mods.contenttweaker.Item;
-	import mods.contenttweaker.IItemRightClick;
-	import mods.contenttweaker.Commands;
-	import mods.contenttweaker.Fluid;
-	import mods.contenttweaker.Color;
-	import mods.contenttweaker.MaterialSystem;
-	import mods.contenttweaker.Material;
+import mods.contenttweaker.VanillaFactory;
+import mods.contenttweaker.Item;
+import mods.contenttweaker.IItemRightClick;
+import mods.contenttweaker.Commands;
+import mods.contenttweaker.Fluid;
+import mods.contenttweaker.Color;
+import mods.contenttweaker.MaterialSystem;
+import mods.contenttweaker.Material;
 
 //物品列表
 var items as string[] = [

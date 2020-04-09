@@ -1,7 +1,17 @@
 #priority -100
+
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IItemTransformer;
+
 var vm = <contenttweaker:void_matter>.anyDamage();
 var cvm = <contenttweaker:compressed_void_matter>;
 var dcvm = <contenttweaker:double_compressed_void_matter>;
+
+function vmd(damage as int) as IIngredient{
+    return vm.transformDamage(damage);
+}
+
 //岩浆桶
 recipes.addShaped(<minecraft:lava_bucket>, [[vm.transformDamage(30), vm.transformDamage(30),vm.transformDamage(30)],[vm.transformDamage(30), <minecraft:dirt>, vm.transformDamage(30)], [vm.transformDamage(30),vm.transformDamage(30), vm.transformDamage(30)]]);
 //水桶

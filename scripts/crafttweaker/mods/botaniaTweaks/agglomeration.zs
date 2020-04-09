@@ -8,7 +8,7 @@ Agglomeration.removeDefaultRecipe();
 //低效率的泰拉钢
 Agglomeration.addRecipe(
     <botania:manaresource:4>, //输出
-    [ <botania:manaresource:1>*2,<botania:manaresource:2>*2,<botania:manaresource>*2] as IIngredient[], //输入
+    [<botania:manaresource:1>*2,<botania:manaresource:2>*2,<botania:manaresource>*2] as IIngredient[], //输入
     300000, //耗魔 默认为500,000（同泰拉钢）
     0xFFF143, //起始粒子颜色
     0xFE4BE8, //终止粒子颜色
