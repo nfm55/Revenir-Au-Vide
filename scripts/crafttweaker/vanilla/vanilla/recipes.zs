@@ -5,7 +5,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemTransformer;
 
 //虚空物质
-static vm as IIngredient = <contenttweaker:void_matter>;
+static vm as IItemStack = <contenttweaker:void_matter>;
 //压缩虚空物质
 val cvm = <contenttweaker:compressed_void_matter>;
 //二重压缩虚空物质
@@ -18,7 +18,7 @@ function vmd(damage as int) as IIngredient{
 }
 
 //有序合成表
-val shapedRecipes as IIngredient[][][IIngredient] = {
+val shapedRecipes as IIngredient[][][IItemStack] = {
     //岩浆桶
     <minecraft:lava_bucket> : [
         [vmd(30), vmd(30),vmd(30)],
