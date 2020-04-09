@@ -7,7 +7,7 @@ import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
 import mods.contenttweaker.MutableItemStack;
 
-static stageItems as string[string] = {
+global stageItems as string[string] = {
     "knowledge_of_elf" : "one",
 	"knowledge_of_bloody_act" : "two"
 };
