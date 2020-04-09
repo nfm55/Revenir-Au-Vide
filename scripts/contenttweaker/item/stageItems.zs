@@ -12,11 +12,11 @@ val stageItems as string[string] = {
 	knowledge_of_bloody_act : "two"
 };
 
-function createStageItem(name as string, stage as string){
+function createStageItem(name as string , stage as string){
     var item = VanillaFactory.createItem(name);
     item.maxStackSize = 64;
     item.rarity = "EPIC";
-    item.itemRightClick = function(stack, world, player, hand) {
+    item.itemRightClick = function(stack , world , player , hand) {
         print(stack.name);
         Commands.call("gamestage add "+player.name+" "+stageItems[stack.name.substring(20)], player, world, false, true);
         Commands.call("title "+player.name+" title {\"text\":\"氪金增智慧成功，不过路长着呢\"}", player, world, false, true);
@@ -30,5 +30,5 @@ function createStageItem(name as string, stage as string){
 
 //注册物品
 for key in stageItems{
-    createStageItem(key, stageItems[key]);
+    createStageItem(key , stageItems[key]);
 }
