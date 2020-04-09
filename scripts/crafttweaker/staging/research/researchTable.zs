@@ -27,6 +27,7 @@ function init(){
       .setRewardCommands(fireworks_big , title("有关精灵造物的认识"), sound , fireworks_small)
       .build();
 
+     /*ResearchTable.builder("远古仪式复现", c)
 /*
      ResearchTable.builder("远古仪式复现", c)
         .setRequiredResearches("精灵造物研究")
@@ -260,6 +261,7 @@ function init(){
         .setRewardStages("new_world")
         .setRewardCommands(fireworks_big , title(""), sound , fireworks_small)
         .build();
+        ResearchTable.builder("",c)
 */
         /*ResearchTable.builder("",c)
         .setRequiredResearches("世界理论：新世界")
