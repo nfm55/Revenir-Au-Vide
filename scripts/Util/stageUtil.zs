@@ -41,5 +41,6 @@ function setRecipeStageByID(stage as string , ID as string) as int{
 function setRecipeStageByItem(stage as string , item as IItemStack) as int{
     if(isNull(stage)||isNull(item))return 0;
     Recipes.setRecipeStage(stage , item);
+	ItemStages.addItemStage(stage , item);
     return 0;
 }
