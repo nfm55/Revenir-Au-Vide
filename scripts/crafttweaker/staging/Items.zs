@@ -7,7 +7,7 @@ import mods.ItemStages.addItemStage;
 import mods.ItemStages.removeItemStage;
 import scripts.Util.stageUtil;
 
-static stageItemMap as IIngredient[][string] = {
+static stageItemMap as IItemStack[][string] = {
 	"elf" : [
 		<botania:manaresource:7>,
 		<botania:manaresource:8>,
