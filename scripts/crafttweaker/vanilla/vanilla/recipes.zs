@@ -174,7 +174,7 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
 };
 
 //无序合成表
-val shapelessRecipesMap as IItemStack[][IIngredient] = {
+val shapelessRecipesMap as IIngredient[][IItemStack] = {
     //泥土
     <minecraft:dirt> * 4 : [vm]
 };
