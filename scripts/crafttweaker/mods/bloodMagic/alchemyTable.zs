@@ -1,4 +1,4 @@
-#priority -100
+#priority 800
 
 import mods.bloodmagic.AlchemyTable;
 

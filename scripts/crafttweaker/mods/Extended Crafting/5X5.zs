@@ -1,4 +1,4 @@
-#priority -100
+#priority 800
 
 mods.extendedcrafting.TableCrafting.addShaped(0 , <botania:terrasteelhelm>.withTag({ench: [{lvl: 4 as short , id: 0 as short}, {lvl: 3 as short , id: 7 as short}, {lvl: 3 as short , id: 34 as short}, {lvl: 1 as short , id: 70 as short}], RepairCost: 15 , display: {Name: "超级泰拉钢头盔"}}), 
 [

@@ -1,12 +1,12 @@
+#priority 900
 
-#priority 0
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.recipes.ICraftingRecipe;
 
-val removingArray = [
+val removingArray as IItemStack[] = [
 
-] as IItemStack[];
+];
 
 for items in removingArray{
     recipes.remove(items);

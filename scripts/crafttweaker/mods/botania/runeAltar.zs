@@ -1,4 +1,4 @@
-#priority -100
+#priority 800
 
 //删除从 rune:0 到 rune:15 的所有配方
 val runeDef = <botania:rune>.definition;

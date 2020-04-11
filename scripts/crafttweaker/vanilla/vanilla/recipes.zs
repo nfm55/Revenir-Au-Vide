@@ -1,4 +1,4 @@
-#priority -100
+#priority 800
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -188,11 +188,3 @@ for output , inputs in shapedRecipes{
 for output , inputs in shapelessRecipesMap{
     recipes.addShapeless(output , inputs);
 }
-
-
-
-
-
-
-
-

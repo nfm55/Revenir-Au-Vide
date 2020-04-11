@@ -1,5 +1,7 @@
-#priority -100
+#priority 800
+
 import mods.bloodmagic.BloodAltar;
+
 mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:obsidian>);
 mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:magma_cream>);
 mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:lapis_block>);
