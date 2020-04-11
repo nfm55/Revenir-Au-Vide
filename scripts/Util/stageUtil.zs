@@ -23,24 +23,18 @@ static allStages as string[] = [
 ];
 
 //用阶段和modid设置mod阶段
-function stageTheMod(stage as string , mod as string) as int{
-    if(isNull(stage)||isNull(mod))return 0;
+function stageTheMod(stage as string , mod as string){
     ItemStages.stageModItems(stage , mod);
 	Recipes.setRecipeStageByMod(stage , mod);
-    return 0;
 }
 
 //用配方ID设置配方阶段
-function setRecipeStageByID(stage as string , ID as string) as int{
-    if(isNull(stage)||isNull(ID))return 0;
+function setRecipeStageByID(stage as string , ID as string){
     Recipes.setRecipeStage(stage , ID);
-    return 0;
 }
 
 //用配方产物设置配方阶段
-function setItemStageByItem(stage as string , item as IItemStack) as int{
-    if(isNull(stage)||isNull(item))return 0;
+function setItemStageByItem(stage as string , item as IItemStack){
     Recipes.setRecipeStage(stage , item);
 	ItemStages.addItemStage(stage , item);
-    return 0;
 }
