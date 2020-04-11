@@ -1,5 +1,6 @@
 
-#priority -100
+#priority 800
+
 //精灵门交♂易
 //获取精灵的知识
 mods.botania.ElvenTrade.addRecipe([<contenttweaker:knowledge_of_elf>], [<contenttweaker:double_compressed_void_matter>]);

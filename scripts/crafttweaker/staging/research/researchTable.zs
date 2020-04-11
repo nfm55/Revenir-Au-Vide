@@ -1,4 +1,5 @@
-#priority -700
+#priority 700
+
 import mods.ResearchTable;
 
 static fireworks_big as string = "summon fireworks_rocket ~ ~2 ~ {LifeTime:30 , FireworksItem:{id:fireworks , Count:2 , tag:{Fireworks:{Flight:2 , Explosions:[{Type:1 , Flicker:1 , Trail:1 , Colors:[I;11743532 , 2437522 , 8073150 , 14188952 , 4312372 , 14602026 , 15435844 , 15790320],FadeColors:[I;5320730 , 14188952 , 15435844 , 15790320]},{Type:2 , Flicker:1 , Trail:1 , Colors:[I;6719955],FadeColors:[I;2651799]}]}}}}";

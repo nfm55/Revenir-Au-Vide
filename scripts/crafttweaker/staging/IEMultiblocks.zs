@@ -1,2 +1,2 @@
-#priority 1000
+#priority 700
 import mods.multiblockstages.IEMultiBlockStages;

@@ -1,4 +1,5 @@
-#priority -100
+#priority 800
+
 //花药台合成
 //功能花：白雏菊
 mods.botania.Apothecary.removeRecipe("puredaisy");

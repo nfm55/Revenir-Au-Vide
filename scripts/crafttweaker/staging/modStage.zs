@@ -1,3 +1,5 @@
+#priority 700
+
 import scripts.Util.stageUtil;
 
 static stageModMap as string[][string] = {

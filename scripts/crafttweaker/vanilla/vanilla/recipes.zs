@@ -1,4 +1,4 @@
-#priority -100
+#priority 800
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -174,7 +174,7 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
 };
 
 //无序合成表
-val shapelessRecipesMap as IItemStack[][IIngredient] = {
+val shapelessRecipesMap as IIngredient[][IItemStack] = {
     //泥土
     <minecraft:dirt> * 4 : [vm]
 };
@@ -188,11 +188,3 @@ for output , inputs in shapedRecipes{
 for output , inputs in shapelessRecipesMap{
     recipes.addShapeless(output , inputs);
 }
-
-
-
-
-
-
-
-

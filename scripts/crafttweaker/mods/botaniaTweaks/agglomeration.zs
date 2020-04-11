@@ -1,4 +1,4 @@
-#priority -100
+#priority 800
 
 import crafttweaker.item.IIngredient;
 import mods.botaniatweaks.Agglomeration;
