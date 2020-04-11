@@ -43,34 +43,22 @@ static stageItemMap as IItemStack[][string] = {
 	],
 	"qi_extract" : [
 		<bloodmagic:soul_snare>,
-		<bloodmagic:sentient_sword>,
-		<bloodmagic:sentient_axe>,
-		<bloodmagic:sentient_pickaxe>,
-		<bloodmagic:sentient_shovel>,
-		<bloodmagic:sentient_bow>,
-		<bloodmagic:monster_soul>,
-		<bloodmagic:soul_gem>,
+		<bloodmagic:monster_soul:0>,
+		<bloodmagic:monster_soul:1>,
+		<bloodmagic:monster_soul:2>,
+		<bloodmagic:monster_soul:3>,
+		<bloodmagic:monster_soul:4>,
+		//<bloodmagic:soul_gem>,
 		<bloodmagic:soul_forge>
 	],
 	"qi_cohesion" : [
-		<bloodmagic:blood_shard>,
-		<bloodmagic:bound_sword>,
-		<bloodmagic:bound_axe>,
-		<bloodmagic:bound_pickaxe>,
-		<bloodmagic:bound_shovel>
+		<bloodmagic:blood_shard:0>,
+		<bloodmagic:component:8>
 		//<bloodmagic:bloodmagic:bound_bow>
 	],
 	"ceremony_to_understand" : [
 		<bloodmagic:ritual_controller>,
-		<bloodmagic:ritual_controller:1>,
-		<bloodmagic:ritual_controller:2>,
 		<bloodmagic:ritual_stone>,
-		<bloodmagic:ritual_stone:1>,
-		<bloodmagic:ritual_stone:2>,
-		<bloodmagic:ritual_stone:3>,
-		<bloodmagic:ritual_stone:4>,
-		<bloodmagic:ritual_stone:5>,
-		<bloodmagic:ritual_stone:6>,
 		<bloodmagic:activation_crystal>,
 		<bloodmagic:activation_crystal:1>,
 		<bloodmagic:inscription_tool:1>,
