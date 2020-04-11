@@ -27,7 +27,6 @@ function init(){
       .setRewardCommands(fireworks_big , title("有关精灵造物的认识"), sound , fireworks_small)
       .build();
 
-     /*ResearchTable.builder("远古仪式复现", c)
 /*
      ResearchTable.builder("远古仪式复现", c)
         .setRequiredResearches("精灵造物研究")
@@ -42,7 +41,7 @@ function init(){
         .build();
 
     
-     ResearchTable.builder( "创世：混沌生秩序", c)
+    /* ResearchTable.builder( "创世：混沌生秩序", c)
         .setRequiredResearches("世界认知：虚空")
         .setIcons(<botania:blacklotus:1>)
         .setTitle("rav.research.hundunshengzhixu.tittle")
@@ -53,9 +52,9 @@ function init(){
         .setRewardStages("gaia_hou")
         .setRewardCommands(fireworks_big , title("来自精灵的最后"), sound , fireworks_small)
         .build();
-
+*/
     //血魔法的一系列研究
-     ResearchTable.builder("世界理论：生命", c)
+ /*    ResearchTable.builder("世界理论：生命", c)
         .setRequiredResearches("远古仪式复现")
         .setIcons()
         .setTitle("rav.research.life.tittle")
