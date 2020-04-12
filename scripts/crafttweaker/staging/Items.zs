@@ -10,7 +10,11 @@ import scripts.Util.stageUtil;
 static stageItemMap as IItemStack[][string] = {
 	"one" : [
 		<contenttweaker:the_rune_of_dawn>,
-		<contenttweaker:the_rune_of_twilight>
+		<contenttweaker:the_rune_of_twilight>,
+		<contenttweaker:rune_of_chaos>
+	],
+	"elf" : [
+		<contenttweaker:rune_of_despair>
 	],
 	"blood" : [
 		<contenttweaker:rune_powder_of_fire>,
