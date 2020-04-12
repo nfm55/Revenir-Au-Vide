@@ -41,7 +41,7 @@ static stageItemUpgradeMap as IItemStack[][string] = {
 		<bloodmagic:monster_soul:4>,
 		//<bloodmagic:soul_gem>,
 		<bloodmagic:soul_forge>
-	]，
+	],
 	"elf" : [
 		<botania:manaresource:7>,
 		<botania:manaresource:8>,
