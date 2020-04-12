@@ -38,3 +38,9 @@ function setItemStageByItem(stage as string , item as IItemStack){
     Recipes.setRecipeStage(stage , item);
 	ItemStages.addItemStage(stage , item);
 }
+
+function setItemStageUpgrade(stage as string , item as IItemStack){
+	ItemStages.removeItemStage( item);
+	Recipes.setRecipeStage(stage , item);
+	ItemStages.addItemStage(stage , item);
+}

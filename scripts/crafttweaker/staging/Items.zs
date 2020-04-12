@@ -41,16 +41,7 @@ static stageItemMap as IItemStack[][string] = {
 		<contenttweaker:rune_powder_of_dawn>,
 		<contenttweaker:rune_powder_of_twilight>,
 	],
-	"qi_extract" : [
-		<bloodmagic:soul_snare>,
-		<bloodmagic:monster_soul:0>,
-		<bloodmagic:monster_soul:1>,
-		<bloodmagic:monster_soul:2>,
-		<bloodmagic:monster_soul:3>,
-		<bloodmagic:monster_soul:4>,
-		//<bloodmagic:soul_gem>,
-		<bloodmagic:soul_forge>
-	],
+	
 	"qi_cohesion" : [
 		<bloodmagic:blood_shard:0>,
 		<bloodmagic:component:8>
@@ -94,8 +85,26 @@ static stageItemMap as IItemStack[][string] = {
 	],
 };
 
+
+static stageItemUpgradeMap as IItemStack[][string] = {
+	"qi_extract" : [
+		<bloodmagic:soul_snare:0>,
+		<bloodmagic:monster_soul:0>,
+		<bloodmagic:monster_soul:1>,
+		<bloodmagic:monster_soul:2>,
+		<bloodmagic:monster_soul:3>,
+		<bloodmagic:monster_soul:4>,
+		//<bloodmagic:soul_gem>,
+		<bloodmagic:soul_forge>
+	]
+};
 for stage , items in stageItemMap{
 	for item in items{
 		stageUtil.setItemStageByItem(stage , item);
+	}
+}
+for stage , items in stageItemUpgradeMap{
+	for item in items{
+		stageUtil.setItemStageUpgrade(stage , item);
 	}
 }
