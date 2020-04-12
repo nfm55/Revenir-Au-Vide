@@ -9,7 +9,7 @@ mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:ghast_tear>);
 mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:coal_block>);
 mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:glowstone>);
 mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:stone>);
-mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:blood_tears> ,<minecraft:ghast_tear> ,  3 , 1000 , 50 , 5);
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:blood_tears> , <contenttweaker:elf_will> ,  3 , 1000 , 50 , 5);
 mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:slate:0> ,<botania:livingrock> ,  0 , 1000 , 50 , 5);
 mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:inscription_tool:2> ,<contenttweaker:rune_powder_of_fire> ,  3 , 1000 , 50 , 5);
 mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:inscription_tool:1> ,<contenttweaker:rune_powder_of_water> ,  3 , 1000 , 50 , 5);

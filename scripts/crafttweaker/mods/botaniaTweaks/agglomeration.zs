@@ -37,7 +37,7 @@ Agglomeration.addRecipe(
 //血泪仪式
 Agglomeration.addRecipe(
     <contenttweaker:blood_tears>, //输出
-    [<minecraft:ghast_tear> , <botania:manaresource:5> ] as IIngredient[], //输入
+    [<minecraft:ghast_tear> , <botania:manaresource:5> *2 , <contenttweaker:elf_will> *2] as IIngredient[], //输入
     100000, //耗魔 默认为500 , 000（同泰拉钢）
     0xFF8C00, //起始粒子颜色
     0xBC1717, //终止粒子颜色
