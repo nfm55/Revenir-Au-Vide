@@ -12,6 +12,36 @@ static stageItemMap as IItemStack[][string] = {
 		<contenttweaker:the_rune_of_dawn>,
 		<contenttweaker:the_rune_of_twilight>
 	],
+	"blood" : [
+		<contenttweaker:rune_powder_of_fire>,
+		<contenttweaker:rune_powder_of_water>,
+		<contenttweaker:rune_powder_of_earth>,
+		<contenttweaker:rune_powder_of_wind>,
+		<contenttweaker:rune_powder_of_dawn>,
+		<contenttweaker:rune_powder_of_twilight>,
+	],
+	"tinker" : [
+
+	],
+	
+	"engineering" : [
+
+	]
+	
+};
+
+
+static stageItemUpgradeMap as IItemStack[][string] = {
+	"qi_extract" : [
+		<bloodmagic:soul_snare:0>,
+		<bloodmagic:monster_soul:0>,
+		<bloodmagic:monster_soul:1>,
+		<bloodmagic:monster_soul:2>,
+		<bloodmagic:monster_soul:3>,
+		<bloodmagic:monster_soul:4>,
+		//<bloodmagic:soul_gem>,
+		<bloodmagic:soul_forge>
+	]，
 	"elf" : [
 		<botania:manaresource:7>,
 		<botania:manaresource:8>,
@@ -33,15 +63,6 @@ static stageItemMap as IItemStack[][string] = {
 		<botania:rune:11>,
 		<botania:rune:9>
 	],
-	"blood" : [
-		<contenttweaker:rune_powder_of_fire>,
-		<contenttweaker:rune_powder_of_water>,
-		<contenttweaker:rune_powder_of_earth>,
-		<contenttweaker:rune_powder_of_wind>,
-		<contenttweaker:rune_powder_of_dawn>,
-		<contenttweaker:rune_powder_of_twilight>,
-	],
-	
 	"qi_cohesion" : [
 		<bloodmagic:blood_shard:0>,
 		<bloodmagic:component:8>
@@ -62,18 +83,12 @@ static stageItemMap as IItemStack[][string] = {
 		<bloodmagic:ritual_diviner:1>,
 		<bloodmagic:ritual_diviner:2>
 	],
-	"tinker" : [
-
-	],
 	"mineral_analysis" : [
 		<tconstruct:ore:0>,
 		<tconstruct:ore:1>,
 		<tconstruct:ingots:0>,
 		<tconstruct:ingots:1>,
 		<tconstruct:ingots:2>
-	],
-	"engineering" : [
-
 	],
 	"fuel_revolution" : [
 		<immersiveengineering:stone_decoration:10>,
@@ -82,20 +97,6 @@ static stageItemMap as IItemStack[][string] = {
 	"building_structure" : [
 		<immersiveengineering:stone_decoration:2>,
 		//<immersivetech:stone_decoration:0>
-	],
-};
-
-
-static stageItemUpgradeMap as IItemStack[][string] = {
-	"qi_extract" : [
-		<bloodmagic:soul_snare:0>,
-		<bloodmagic:monster_soul:0>,
-		<bloodmagic:monster_soul:1>,
-		<bloodmagic:monster_soul:2>,
-		<bloodmagic:monster_soul:3>,
-		<bloodmagic:monster_soul:4>,
-		//<bloodmagic:soul_gem>,
-		<bloodmagic:soul_forge>
 	]
 };
 for stage , items in stageItemMap{
