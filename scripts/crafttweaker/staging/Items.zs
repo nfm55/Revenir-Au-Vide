@@ -143,7 +143,7 @@ static stageItemUpgradeMap as IItemStack[][string] = {
 		<bloodmagic:ritual_diviner:1>,
 		<bloodmagic:ritual_diviner:2>
 
-	]
+	],
 	"mineral_analysis" : [
 		<tconstruct:ore:0>,
 		<tconstruct:ore:1>,
