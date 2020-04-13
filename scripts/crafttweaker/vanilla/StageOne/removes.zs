@@ -5,7 +5,7 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.recipes.ICraftingRecipe;
 
 val removingArray as IItemStack[] = [
-
+    <naturesaura:gold_fiber>
 ];
 
 for items in removingArray{
