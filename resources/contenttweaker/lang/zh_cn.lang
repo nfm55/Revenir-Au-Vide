@@ -7,6 +7,17 @@ item.contenttweaker.something_connected_to_the_world.name=世间连结之物
 item.contenttweaker.compressed_void_matter.name=压缩虚空物质
 item.contenttweaker.double_comepressed_void_matter.name=致密虚空物质
 item.contenttweaker.blood_tears.name=血之泪
+item.contenttweaker.rune_powder_of_dawn.name=黎明符文粉
+item.contenttweaker.rune_powder_of_fire.name=火之符文粉
+item.contenttweaker.rune_powder_of_water.name=水之符文粉
+item.contenttweaker.rune_powder_of_earth.name=地之符文粉
+item.contenttweaker.rune_powder_of_wind.name=风之符文粉
+item.contenttweaker.rune_powder_of_twilight.name=薄暮符文粉
+item.contenttweaker.the_rune_of_dawn.name=黎明符文
+item.contenttweaker.the_rune_of_twilight.name=薄暮符文
+item.contenttweaker.the_rune_of_despair.name=绝望符文
+item.contenttweaker.the_rune_of_chaos.name=混沌符文
+
 
 
 
