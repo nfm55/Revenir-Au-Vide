@@ -45,7 +45,7 @@ function init(){
     /* ResearchTable.builder( "创世：混沌生秩序", c)
         .setRequiredResearches("世界认知：虚空")
         .setIcons(<botania:blacklotus:1>)
-        .setTitle("rav.research.hundunshengzhixu.tittle")
+        .setTitle("rav.research.hundunshengzhixu.title")
         .setDescription("rav.research.hundunshengzhixu.description")
         .addCondition(
 
@@ -58,7 +58,7 @@ function init(){
  /*    ResearchTable.builder("世界理论：生命", c)
         .setRequiredResearches("远古仪式复现")
         .setIcons()
-        .setTitle("rav.research.life.tittle")
+        .setTitle("rav.research.life.title")
         .setDescription("rav.research.life.description")
         .addCondition(
 
@@ -70,7 +70,7 @@ function init(){
      ResearchTable.builder("生命源质提取",c)
         .setRequiredResearches("世界理论：生命")
         .setIcons()
-        .setTitle("rav.research.qi_extract.tittle")
+        .setTitle("rav.research.qi_extract.title")
         .setDescription("rav.research.qi_extract.description")
         .addCondition(
 
@@ -82,7 +82,7 @@ function init(){
      ResearchTable.builder("气血碎片凝聚",c)
         .setRequiredResearches("生命源质提取")
         .setIcons()
-        .setTitle("rav.research.qi_cohesion.tittle")
+        .setTitle("rav.research.qi_cohesion.title")
         .setDescription("rav.research.qi_cohesion.description")
         .addCondition(
 
@@ -94,7 +94,7 @@ function init(){
      ResearchTable.builder("血腥仪式理解",c)
         .setRequiredResearches("气血碎片凝聚")
         .setIcons( )
-        .setTitle("rav.research.ceremony_to_understand.tittle")
+        .setTitle("rav.research.ceremony_to_understand.title")
         .setDescription("rav.research.Ceremony_to_understand.description")
         .addCondition(
 
@@ -106,7 +106,7 @@ function init(){
      ResearchTable.builder("世界认知：生命",c)
         .setRequiredResearches("血腥仪式理解")
         .setIcons( )
-        .setTitle("rav.research.understand_life.tittle")
+        .setTitle("rav.research.understand_life.title")
         .setDescription("rav.research.understand_life.description")
         .addCondition(
 
@@ -118,7 +118,7 @@ function init(){
      ResearchTable.builder("创世：一即全",c)
         .setRequiredResearches("世界认知：虚空")
         .setIcons( )
-        .setTitle("rav.research.one_is_all.tittle")
+        .setTitle("rav.research.one_is_all.title")
         .setDescription("rav.research.one_is_all.description")
         .addCondition(
 
@@ -131,7 +131,7 @@ function init(){
      ResearchTable.builder("世界理论：材料",c)
         .setRequiredResearches("远古仪式复现")
         .setIcons( )
-        .setTitle("rav.research.theory_of_material.tittle")
+        .setTitle("rav.research.theory_of_material.title")
         .setDescription("rav.research.theory_of_material.description")
         .addCondition(
 
@@ -143,7 +143,7 @@ function init(){
      ResearchTable.builder("工具结构分析",c)
         .setRequiredResearches("世界理论：材料")
         .setIcons( )
-        .setTitle("rav.analyze.tittle")
+        .setTitle("rav.analyze.title")
         .setDescription("rav.analyze.description")
         .addCondition(
 
@@ -155,7 +155,7 @@ function init(){
      ResearchTable.builder("地狱矿产研究",c)
         .setRequiredResearches("工具结构分析")
         .setIcons( )
-        .setTitle("rav.mineral_analysis.tittle")
+        .setTitle("rav.mineral_analysis.title")
         .setDescription("rav.mineral_analysis.description")
         .addCondition(
 
@@ -167,7 +167,7 @@ function init(){
      ResearchTable.builder("新材料利用测试",c)
         .setRequiredResearches("地狱矿产研究")
         .setIcons( )
-        .setTitle("rav.utilization_of_new_materials.tittle")
+        .setTitle("rav.utilization_of_new_materials.title")
         .setDescription("rav.utilization_of_new_materials.description")
         .addCondition(
 
@@ -179,7 +179,7 @@ function init(){
      ResearchTable.builder("世界认知：材料",c)
         .setRequiredResearches("新材料利用测试")
         .setIcons( )
-        .setTitle("rav.material_of_cognitive.tittle")
+        .setTitle("rav.material_of_cognitive.title")
         .setDescription("rav.material_of_cognitive.description")
         .addCondition(
 
@@ -192,7 +192,7 @@ function init(){
      ResearchTable.builder("世界理论：技术",c)
         .setRequiredResearches("远古仪式复现")
         .setIcons( )
-        .setTitle("rav.technology.tittle")
+        .setTitle("rav.technology.title")
         .setDescription("rav.technology.description")
         .addCondition(
 
@@ -204,7 +204,7 @@ function init(){
      ResearchTable.builder("手工部件磨制",c)
         .setRequiredResearches("世界理论：技术")
         .setIcons( )
-        .setTitle("rav.fuel_revolution.tittle")
+        .setTitle("rav.fuel_revolution.title")
         .setDescription("rav.fuel_revolution.description")
         .addCondition(
 
@@ -216,7 +216,7 @@ function init(){
      ResearchTable.builder("铸造工艺探索",c)
         .setRequiredResearches("手工部件磨制")
         .setIcons( )
-        .setTitle("rav.metal_exploration.tittle")
+        .setTitle("rav.metal_exploration.title")
         .setDescription("rav.metal_exploration.description")
         .addCondition(
 
@@ -228,7 +228,7 @@ function init(){
      ResearchTable.builder("先进工具制作",c)
         .setRequiredResearches("铸造工艺探索")
         .setIcons( )
-        .setTitle("rav.building_structure.tittle")
+        .setTitle("rav.building_structure.title")
         .setDescription("rav.building_structure.description")
         .addCondition(
 
@@ -240,7 +240,7 @@ function init(){
      ResearchTable.builder("世界认知：技术",c)
         .setRequiredResearches("先进工具制作")
         .setIcons( )
-        .setTitle("rav.technology_of_cognitive.tittle")
+        .setTitle("rav.technology_of_cognitive.title")
         .setDescription("rav.technology_of_cognitive.description")
         .addCondition(
 
@@ -253,7 +253,7 @@ function init(){
         ResearchTable.builder("世界理论：新世界",c)
         .setRequiredResearches("世界认知：生命","世界认知：材料","世界认知：技术")
         .setIcons( )
-        .setTitle("rav.new_world.tittle")
+        .setTitle("rav.new_world.title")
         .setDescription("rav.new_world.description")
         .addCondition(
 
@@ -266,7 +266,7 @@ function init(){
         /*ResearchTable.builder("",c)
         .setRequiredResearches("世界理论：新世界")
         .setIcons( )
-        .setTitle("rav..tittle")
+        .setTitle("rav..title")
         .setDescription("rav..description")
         .addCondition(
 
