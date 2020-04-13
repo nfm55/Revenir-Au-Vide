@@ -42,8 +42,8 @@ Agglomeration.addRecipe(
     0xFF8C00, //起始粒子颜色
     0xBC1717, //终止粒子颜色
     <botania:storage:1>, //仪式正中：泰拉钢块
-    <botania:livingwood>, //仪式边缘：活木
-    <botania:livingrock>, //仪式四角：活石
+    <botania:dreamwood>, //仪式边缘：梦之木
+    <botanicadds:dreamrock>, //仪式四角：梦之石
     <botania:storage:0>, //正中嬗变/枯竭
     <minecraft:log>, //边缘嬗变/枯竭
     <minecraft:stone> //四角嬗变/枯竭
