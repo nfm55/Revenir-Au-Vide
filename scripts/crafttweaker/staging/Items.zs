@@ -144,13 +144,13 @@ static stageItemUpgradeMap as IItemStack[][string] = {
 		<bloodmagic:ritual_diviner:2>
 
 	],
-	"mineral_analysis" : [
+	/*"mineral_analysis" : [
 		<tconstruct:ore:0>,
 		<tconstruct:ore:1>,
 		<tconstruct:ingots:0>,
 		<tconstruct:ingots:1>,
 		<tconstruct:ingots:2>
-	],
+	],*/
 	"fuel_revolution" : [
 		<immersiveengineering:stone_decoration:10>,
 		<immersiveengineering:stone_decoration:1>
@@ -158,6 +158,33 @@ static stageItemUpgradeMap as IItemStack[][string] = {
 	"building_structure" : [
 		<immersiveengineering:stone_decoration:2>,
 		//<immersivetech:stone_decoration:0>
+	],
+	"smelter" : [
+		<tconstruct:materials>,
+		<tconstruct:seared_tank>,
+		<tconstruct:seared_tank:1>,
+		<tconstruct:seared_tank:2>,
+		<tconstruct:seared_furnace_controller>,
+		<tconstruct:seared_glass>,
+		<tconstruct:seared>,
+		<tconstruct:seared:1>,
+		<tconstruct:seared:2>,
+		<tconstruct:seared:3>,
+		<tconstruct:seared:4>,
+		<tconstruct:seared:5>,
+		<tconstruct:seared:6>,
+		<tconstruct:seared:7>,
+		<tconstruct:seared:8>,
+		<tconstruct:seared:9>,
+		<tconstruct:seared:10>,
+		<tconstruct:seared:11>,
+		<tconstruct:smeltery_controller>,
+		<tconstruct:faucet>,
+		<tconstruct:channel>,
+		<tconstruct:casting>,
+		<tconstruct:casting:1>,
+		<tconstruct:tinker_tank_controller>,
+		<tconstruct:smeltery_io>
 	]
 };
 for stage , items in stageItemMap{

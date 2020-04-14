@@ -18,8 +18,8 @@ ResearchTable.builder("精灵造物研究", c)
   .setTitle("rav.research.elfnology.title")
   .setDescription("rav.research.elfnology.description")
   .addCondition(
-     <item:botaniadds:dream_rock> * 32,
-     <item:botaniadds:mana_lapis> * 16,
+     <item:botanicadds:dreamrock> * 32,
+     <item:botanicadds:mana_lapis> * 16,
      <item:botania:manaresource:16> * 4,
      <item:botania:manaresource> * 4,
      <item:botania:manaresource:1> * 4,

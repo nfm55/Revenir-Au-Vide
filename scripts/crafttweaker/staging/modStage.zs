@@ -11,7 +11,7 @@ static stageModMap as string[][string] = {
 	    "modularmachinery",
 	    "modulardiversity",
 	    "akashictome",
-	    //"tconstruct",
+	    "tconstruct",
     ],
     "nature" : [
         "naturesaura"
@@ -19,9 +19,9 @@ static stageModMap as string[][string] = {
     "blood" : [
         "bloodmagic",
     ],
-    "tinker" : [
-        "tconstruct",
-    ],
+    //"tinker" : [
+    //    "tconstruct",
+    //],
     "engineering" : [
         "immersiveengineering",
     ],
