@@ -7,13 +7,14 @@ static stageModMap as string[][string] = {
     "one" : [
         "botanicadds",
 	    "botanianeedsit",
-	    //"immersiveengineering",
 	    "extendedcrafting",
-	    //"bloodmagic",
 	    "modularmachinery",
 	    "modulardiversity",
 	    "akashictome",
-	    "tconstruct",
+	    //"tconstruct",
+    ],
+    "nature" : [
+        "naturesaura"
     ],
     "blood" : [
         "bloodmagic",

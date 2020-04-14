@@ -10,7 +10,11 @@ import scripts.Util.stageUtil;
 static stageItemMap as IItemStack[][string] = {
 	"one" : [
 		<contenttweaker:the_rune_of_dawn>,
-		<contenttweaker:the_rune_of_twilight>
+		<contenttweaker:the_rune_of_twilight>,
+		<contenttweaker:rune_of_chaos>
+	],
+	"elf" : [
+		<contenttweaker:rune_of_despair>
 	],
 	"blood" : [
 		<contenttweaker:rune_powder_of_fire>,
@@ -32,16 +36,6 @@ static stageItemMap as IItemStack[][string] = {
 
 
 static stageItemUpgradeMap as IItemStack[][string] = {
-	"qi_extract" : [
-		<bloodmagic:soul_snare:0>,
-		<bloodmagic:monster_soul:0>,
-		<bloodmagic:monster_soul:1>,
-		<bloodmagic:monster_soul:2>,
-		<bloodmagic:monster_soul:3>,
-		<bloodmagic:monster_soul:4>,
-		//<bloodmagic:soul_gem>,
-		<bloodmagic:soul_forge>
-	],
 	"elf" : [
 		<botania:manaresource:7>,
 		<botania:manaresource:8>,
@@ -63,7 +57,7 @@ static stageItemUpgradeMap as IItemStack[][string] = {
 		<botania:rune:11>,
 		<botania:rune:9>
 	],
-	"qi_cohesion" : [
+	/*"qi_cohesion" : [
 		<bloodmagic:blood_shard:0>,
 		<bloodmagic:component:8>
 		//<bloodmagic:bloodmagic:bound_bow>
@@ -82,6 +76,73 @@ static stageItemUpgradeMap as IItemStack[][string] = {
 		<bloodmagic:ritual_diviner>,
 		<bloodmagic:ritual_diviner:1>,
 		<bloodmagic:ritual_diviner:2>
+	],*/
+	"soul_research" : [
+		<bloodmagic:soul_snare:0>,
+		<bloodmagic:monster_soul:0>,
+		<bloodmagic:monster_soul:1>,
+		<bloodmagic:monster_soul:2>,
+		<bloodmagic:monster_soul:3>,
+		<bloodmagic:monster_soul:4>,
+		<bloodmagic:sentient_sword>,
+		<bloodmagic:sentient_axe>,
+		<bloodmagic:sentient_pickaxe>,
+		<bloodmagic:sentient_shovel>,
+		<bloodmagic:sentient_bow>,
+		<bloodmagic:sentient_armour_gem>,
+		<bloodmagic:soul_gem:0>.withTag({}),
+		<bloodmagic:soul_gem:1>.withTag({}),
+		<bloodmagic:soul_gem:2>.withTag({}),
+		<bloodmagic:soul_gem:3>.withTag({}),
+		<bloodmagic:soul_gem:4>.withTag({}),
+		<bloodmagic:soul_forge>
+	],
+	"alchemy" : [
+		<bloodmagic:component:0>,
+		<bloodmagic:component:1>,
+		<bloodmagic:component:2>,
+		<bloodmagic:component:3>,
+		<bloodmagic:component:4>,
+		<bloodmagic:component:5>,
+		<bloodmagic:component:6>,
+		<bloodmagic:component:7>,
+		<bloodmagic:component:8>,
+		<bloodmagic:component:9>,
+		<bloodmagic:component:10>,
+		<bloodmagic:component:11>,
+		<bloodmagic:component:12>,
+		<bloodmagic:component:13>,
+		<bloodmagic:component:14>,
+		<bloodmagic:component:15>,
+		<bloodmagic:component:16>,
+		<bloodmagic:component:17>,
+		<bloodmagic:component:18>,
+		<bloodmagic:component:19>,
+		<bloodmagic:component:20>,
+		<bloodmagic:component:21>,
+		<bloodmagic:component:22>,
+		<bloodmagic:component:23>,
+		<bloodmagic:component:24>,
+		<bloodmagic:component:25>,
+		<bloodmagic:component:26>,
+		<bloodmagic:component:27>,
+		<bloodmagic:component:28>,
+		<bloodmagic:component:29>,
+		<bloodmagic:component:30>,
+		<bloodmagic:component:31>,
+		<bloodmagic:component:32>
+	],
+	"ceromeny" : [
+		<bloodmagic:inscription_tool:1>,
+		<bloodmagic:inscription_tool:2>,
+		<bloodmagic:inscription_tool:3>,
+		<bloodmagic:inscription_tool:4>,
+		<bloodmagic:inscription_tool:5>,
+		<bloodmagic:inscription_tool:6>,
+		<bloodmagic:ritual_diviner>,
+		<bloodmagic:ritual_diviner:1>,
+		<bloodmagic:ritual_diviner:2>
+
 	],
 	"mineral_analysis" : [
 		<tconstruct:ore:0>,
