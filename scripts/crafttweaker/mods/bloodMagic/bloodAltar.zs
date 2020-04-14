@@ -12,7 +12,11 @@ mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:stone>);
 mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:diamond>);
 mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:redstone_block>);
 mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:gold_block>);
+
+
+//血之泪
 mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:blood_tears> , <contenttweaker:elf_will> ,  3 , 1000 , 50 , 5);
+//空白石板
 mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:slate:0> ,<botania:livingrock> ,  0 , 1000 , 50 , 5);
 mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:inscription_tool:2> ,<contenttweaker:rune_powder_of_fire> ,  3 , 1000 , 50 , 5);
 mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:inscription_tool:1> ,<contenttweaker:rune_powder_of_water> ,  3 , 1000 , 50 , 5);
