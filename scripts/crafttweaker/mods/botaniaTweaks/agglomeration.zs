@@ -48,3 +48,17 @@ Agglomeration.addRecipe(
     <minecraft:log>, //边缘嬗变/枯竭
     <minecraft:stone> //四角嬗变/枯竭
 );
+//凝聚盖亚之力
+Agglomeration.addRecipe(
+    <botania:manaresource:5>*2, //输出
+    [<minecraft:grass> , <minecraft:apple>  , <minecraft:sapling> , <minecraft:wheat>,<minecraft:red_flower>] as IIngredient[], //输入
+    100000, //耗魔 默认为500 , 000（同泰拉钢）
+    0xFF8C00, //起始粒子颜色
+    0xBC1717, //终止粒子颜色
+    <botanicadds:dreamrock>,
+    <botania:storage:2>,
+    <botanicadds:dreamrock>, //仪式四角：梦之石
+    <minecraft:stone>, //正中嬗变/枯竭
+    <minecraft:air>, //边缘嬗变/枯竭
+    <minecraft:air> //四角嬗变/枯竭
+);

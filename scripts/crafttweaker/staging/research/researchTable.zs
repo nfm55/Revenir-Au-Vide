@@ -28,14 +28,21 @@ function title(stage as string){
       .setRewardCommands(fireworks_big , title("有关精灵造物的认识"), sound , fireworks_small)
       .build();
 
-/*
+
      ResearchTable.builder("远古仪式复现", c)
         .setRequiredResearches("精灵造物研究")
         .setIcons(<item:botania:gaiahead>)
         .setTitle("rav.research.gaia.title")
         .setDescription("rav.research.gaia.description")
         .addCondition(
-            
+            <item:botania:manaresource:7>*32
+            <item:botania:manaresource:8>*16
+            <item:botanic:rune:4>  * 8, 
+            <item:botanic:rune:5>  * 8, 
+            <item:botanic:rune:6>  * 8,
+            <item:botanic:rune:7>  * 8,
+            <item:botania:manaresource:5>*4,
+            <item:botania:manaresource:9>
             )
         .setRewardStages("gaia")
         .setRewardCommands(fireworks_big , title("远古仪式的认知"), sound , fireworks_small)
