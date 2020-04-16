@@ -17,8 +17,13 @@ item.contenttweaker.the_rune_of_dawn.name=黎明符文
 item.contenttweaker.the_rune_of_twilight.name=薄暮符文
 item.contenttweaker.rune_of_despair.name=绝望符文
 item.contenttweaker.rune_of_chaos.name=混沌符文
+item.contenttweaker.blood_ingot.name=冶血锭
+item.contenttweaker.natural_soul.name=自然之魂
 
 
+fluid.modularium=熔融模块化合金
+fluid.sky_ingot=熔融天空锭
+fluid.blood_ingot=熔融冶血锭
 
 
 
