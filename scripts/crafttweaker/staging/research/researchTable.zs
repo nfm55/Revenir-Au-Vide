@@ -10,6 +10,7 @@ function title(stage as string){
    return "title @s title {\"text\":\"恭喜，您已解锁 "+stage+" ！\"}";
 }
 
+<<<<<<< HEAD
     var c = ResearchTable.addCategory(<item:botania:lexicon>);
     //植物魔法一系列的研究
     ResearchTable.builder("精灵造物研究", c)
@@ -49,6 +50,34 @@ function title(stage as string){
         .setDescription("rav.research.hundunshengzhixu.description")
         .addCondition(
 
+=======
+var c = ResearchTable.addCategory(<item:botania:lexicon>);
+
+//植物魔法一系列的研究
+ResearchTable.builder("精灵造物研究", c)
+  .setIcons(<item:botania:manaresource:7>)
+  .setTitle("rav.research.elfnology.title")
+  .setDescription("rav.research.elfnology.description")
+  .addCondition(
+     <item:botanicadds:dreamrock> * 32,
+     <item:botanicadds:mana_lapis> * 16,
+     <item:botania:manaresource:16> * 4,
+     <item:botania:manaresource> * 4,
+     <item:botania:manaresource:1> * 4,
+     <item:botania:manaresource:2> * 4
+  )
+  .setRewardStages("elf")
+  .setRewardCommands(fireworks_big , title("有关精灵造物的认识"), sound , fireworks_small)
+  .build();
+
+ ResearchTable.builder("远古仪式复现", c)
+    .setRequiredResearches("精灵造物研究")
+    .setIcons(<item:botania:gaiahead>)
+    .setTitle("rav.research.gaia.title")
+    .setDescription("rav.research.gaia.description")
+    .addCondition(
+        
+>>>>>>> a7f6d69074c5d0a0589d7b0195496f7269329767
         )
         .setRewardStages("gaia_hou")
         .setRewardCommands(fireworks_big , title("来自精灵的最后"), sound , fireworks_small)

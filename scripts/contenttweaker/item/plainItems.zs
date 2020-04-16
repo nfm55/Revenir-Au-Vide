@@ -34,7 +34,8 @@ var items as string[] = [
 	"rune_powder_of_twilight",
 	"rune_of_despair",
 	"rune_of_chaos",
-	"natural_soul"
+	"natural_soul",
+	"blood_ingot"
 ];
 
 //物品注册

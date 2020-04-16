@@ -32,3 +32,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0 , <botania:terrasteelboots>.with
 	[<ore:livingwoodTwig> , <ore:ingotTerrasteel> , null , <ore:ingotTerrasteel> , <ore:livingwoodTwig>], 
 	[<ore:ingotTerrasteel> , <ore:ingotTerrasteel> , <ore:runeWinterB> , <ore:ingotTerrasteel> , <ore:ingotTerrasteel>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0 , <botanicadds:gaia_plate>, [
+	[<botania:rune:4>, <botania:manaresource:5> , <botanicadds:elven_lapis> , <botania:manaresource:5> , <botania:rune:5>], 
+	[<botania:manaresource:5> , <botania:manaresource:7> , <contenttweaker:elf_will> , <botania:manaresource:7> , <botania:manaresource:5>], 
+	[<botanicadds:elven_lapis> , <contenttweaker:elf_will> , <contenttweaker:rune_of_chaos> , <contenttweaker:elf_will> , <botanicadds:elven_lapis>], 
+	[<botania:manaresource:5> , <botania:manaresource:7> , <contenttweaker:elf_will> , <botania:manaresource:7> , <botania:manaresource:5>], 
+	[<botania:rune:6> , <botania:manaresource:5> , <botanicadds:elven_lapis> , <botania:manaresource:5> , <botania:rune:7>]
+]);
