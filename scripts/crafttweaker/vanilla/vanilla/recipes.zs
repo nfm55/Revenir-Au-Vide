@@ -37,8 +37,8 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
     	[null , vmd(10) , null],
     	[null , <minecraft:dirt> , null]
     ],
-    //金锭
-    <minecraft:gold_ingot> : [
+    //金矿石
+    <minecraft:gold_ore>*2 : [
     	[vm , <minecraft:iron_ingot> , <minecraft:iron_ingot>],
     	[<minecraft:iron_ingot> , <minecraft:iron_ingot> , null],
     	[null , null , null]
@@ -51,9 +51,9 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
     ],
     //末影珍珠
     <minecraft:ender_pearl> : [
-    	[null , <minecraft:diamond> , null],
-    	[<minecraft:diamond> , vm , <minecraft:diamond>],
-    	[null , <minecraft:diamond> , null]
+    	[null , null, null],
+    	[<minecraft:diamond> , vm ,<minecraft:diamond>],
+    	[null ,null , null]
     ],
     //魔力发射器
     <botania:spreader> : [
@@ -144,8 +144,8 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
     	[<minecraft:red_flower:1> , vm , <minecraft:red_flower:1>],
     	[null , <minecraft:red_flower:1> , null]
     ],
-    //钻石!
-    <minecraft:diamond> : [
+    //钻石矿石!
+    <minecraft:diamond_ore> : [
         [vm , <minecraft:gold_ingot> , <minecraft:gold_ingot>],
         [<minecraft:gold_ingot> , <minecraft:gold_ingot> , null]
     ],
@@ -169,8 +169,13 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [cvm , cvm , cvm],
         [cvm , cvm , cvm],
         [cvm , cvm , cvm]
+    ],
+    //绿宝石矿石
+    <minecraft:emerald_ore> : [
+        [null,<minecraft:diamond>,null],
+        [null,vm,null],
+        [null,<minecraft:diamond>,null]
     ]
-
 };
 
 //无序合成表
