@@ -35,8 +35,8 @@ function title(stage as string){
         .setTitle("rav.research.gaia.title")
         .setDescription("rav.research.gaia.description")
         .addCondition(
-            <item:botania:manaresource:7>*32
-            <item:botania:manaresource:8>*16
+            <item:botania:manaresource:7>*32,
+            <item:botania:manaresource:8>*16,
             <item:botanic:rune:4>  * 8, 
             <item:botanic:rune:5>  * 8, 
             <item:botanic:rune:6>  * 8,
