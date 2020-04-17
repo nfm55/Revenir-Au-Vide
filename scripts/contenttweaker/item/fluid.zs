@@ -20,7 +20,8 @@ function buildFluid(
 		isLava as bool, 
 		colorize as bool, 
 		stillWater as bool, 
-		flowWater as bool){
+		flowWater as bool
+		){
 
 	var fluid = VanillaFactory.createFluid(name,Color.fromHex(color));
 
@@ -36,7 +37,9 @@ function buildFluid(
 
 //熔融模块化合金
 buildFluid("modularium", "ff471a", 120, 1200, 1200, 0, false, false, false, false);
+//熔融天空锭
 buildFluid("sky_ingot", "7ed5fe", 120, 1200, 1200, 0, false, false, false, false);
+//熔融冶血锭
 buildFluid("blood_ingot", "a40626", 120, 1200, 1200, 0, false, false, false, false);
 //buildFluid("modularium", "ff471a", 120, 1200, 1200, 0, false, false, false, false);
 //buildFluid("modularium", "ff471a", 120, 1200, 1200, 0, false, false, false, false);
