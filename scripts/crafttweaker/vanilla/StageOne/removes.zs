@@ -7,7 +7,9 @@ import crafttweaker.recipes.ICraftingRecipe;
 val removingArray as IItemStack[] = [
     <naturesaura:gold_fiber>,
     <botanicadds:gaia_plate>,
-    <naturesaura:bottle_two_the_rebottling>
+    <naturesaura:bottle_two_the_rebottling>,
+    <tconstruct:soil>,
+    <immersiveengineering:stone_decoration:5>
 ];
 
 for items in removingArray{
