@@ -156,7 +156,7 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
     //原木
     <minecraft:log> * 8 : [
         [null , vmd(10)],
-        [vmd(10) , null]
+        [vmd(10) , vmd(10)]
     ],
     //压缩虚空物质
     <contenttweaker:compressed_void_matter> : [
@@ -181,7 +181,7 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
 //无序合成表
 val shapelessRecipesMap as IIngredient[][IItemStack] = {
     //泥土
-    <minecraft:dirt> * 4 : [vm]
+    <minecraft:dirt> * 4 : [vmd(10)]
 };
 
 //批量添加有序合成
