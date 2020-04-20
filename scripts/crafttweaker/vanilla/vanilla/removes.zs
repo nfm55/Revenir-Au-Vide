@@ -8,7 +8,7 @@ val removingArray = [
 	<botania:spreader>,
 	<botania:altar>,
 	<botania:alfheimportal>,
-	<<extendedcrafting:table_advanced>>
+	<extendedcrafting:table_advanced>
 ] as IItemStack[];
 
 for items in removingArray{
