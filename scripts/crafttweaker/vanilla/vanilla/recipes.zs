@@ -175,6 +175,12 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [null,<minecraft:diamond>,null],
         [null,vm,null],
         [null,<minecraft:diamond>,null]
+    ],
+    //高级工作台
+    <extendedcrafting:table_advanced> : [
+        [<extendedcrafting:material>,<minecraft:gold_ingot>,<extendedcrafting:material>],
+        [<minecraft:crafting_table>,<extendedcrafting:material>,<minecraft:crafting_table>],
+        [<extendedcrafting:material>,<extendedcrafting:material>,<extendedcrafting:material>]
     ]
 };
 
