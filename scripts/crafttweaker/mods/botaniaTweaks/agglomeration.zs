@@ -59,6 +59,20 @@ Agglomeration.addRecipe(
     <botania:storage:2>,
     <botanicadds:dreamrock>, //仪式四角：梦之石
     <minecraft:stone>, //正中嬗变/枯竭
-    <minecraft:air>, //边缘嬗变/枯竭
-    <minecraft:air> //四角嬗变/枯竭
+    <minecraft:stone>, //边缘嬗变/枯竭
+    <minecraft:stone> //四角嬗变/枯竭
+);
+//你管这叫炼金术？
+Agglomeration.addRecipe(
+    <minecraft:apple>,
+    [<contenttweaker:natural_soul>],
+    50000,
+    0xFF8C00, 
+    0xBC1717,
+    <ore:blockIron>,
+    <ore:blockGold>,
+    <ore:blockIron>,
+    <thermalfoundation:storage>,
+    <thermalfoundation:storage:2>,
+    <thermalfoundation:storage>
 );
