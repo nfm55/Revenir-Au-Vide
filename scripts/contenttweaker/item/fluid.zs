@@ -35,7 +35,7 @@ function buildFluid(
 	fluid.register();
 }
 
-//熔融模块化合金
+//熔融粗制模块化合金
 buildFluid("modularium", "ff471a", 120, 1200, 1200, 0, false, false, false, false);
 //熔融天空锭
 buildFluid("sky_ingot", "7ed5fe", 120, 1200, 1200, 0, false, false, false, false);
