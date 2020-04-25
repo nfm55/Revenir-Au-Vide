@@ -11,23 +11,28 @@ static stageModMap as string[][string] = {
 	    "modularmachinery",
 	    "modulardiversity",
 	    "akashictome",
-	    "tconstruct",
+	    "tconstruct"
     ],
     "nature" : [
         "naturesaura"
     ],
     "blood" : [
-        "bloodmagic",
+        "bloodmagic"
     ],
     //"tinker" : [
     //    "tconstruct",
     //],
     "engineering" : [
         "immersiveengineering",
+        "ThermalFoundation"
     ],
     "building_structure" : [
         "immersivepetroleum",
-	    "immersivetech",
+	    "immersivetech"
+    ],
+    "two" : [
+        "thermaldynamics",
+        "thermalexpansion"
     ]
 
 };
