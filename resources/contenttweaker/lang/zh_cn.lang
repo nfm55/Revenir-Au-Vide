@@ -19,6 +19,7 @@ item.contenttweaker.rune_of_despair.name=绝望符文
 item.contenttweaker.rune_of_chaos.name=混沌符文
 item.contenttweaker.blood_ingot.name=冶血锭
 item.contenttweaker.natural_soul.name=自然之魂
+item.contenttweaker.void_singularity.name=虚空奇点
 
 
 fluid.modularium=熔融粗制模块化合金
@@ -33,6 +34,8 @@ rav.research.gaia.title=远古仪式复现
 rav.research.gaia.description=精灵所能够提供的力量终究有其极限，与精灵界的深度交流让你得知了某个被称作“盖亚仪式”的神秘仪式信息，你确信在现实复现这种仪式将能给你带来全新的突破。
 rav.research.life.title=世界理论：生命
 rav.research.life.description=世界遍布着生命，解析生命之中蕴藏着的奥秘能够为你打开新的大门。
+rav.research.mob_grinding.title=刷怪塔改造计划
+rav.research.mob_grinding.description=刷怪塔不够智能？不够精简？或者效率过低？你会需要这个的。
 
 
 

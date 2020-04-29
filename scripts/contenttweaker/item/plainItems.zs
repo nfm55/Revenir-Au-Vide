@@ -51,3 +51,18 @@ item.maxDamage = 100;
 item.toolClass = "pickaxe";
 item.toolLevel = 0;
 item.register();
+
+var item1 = VanillaFactory.createItem("void_singularity");
+item1.maxStackSize = 64;
+item1.rarity = "EPIC";
+item1.itemRightClick = function(stack , world , player , hand){
+    print(stack.name);
+    Commands.call("summon minecraft:lightning_bolt "+player.x+" "+(player.y+2)+" "+player.z,player, world, false, true);
+	Commands.call("say "+player.name+" 一道惊雷从天空落下，虚空奇点四分五裂，等待你的，会是什么样的挑战呢？", player, world, false, true);
+	for i in 0 .. 10 {
+		 Commands.call("give "+player.name+" contenttweaker:void_matter",player, world, false, true);
+	}
+	stack.shrink(1);
+    return "Success";
+};
+item1.register();

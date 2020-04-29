@@ -49,6 +49,21 @@ function title(stage as string){
         .build();
 
     
+    ResearchTable.builder("刷怪塔改造计划", c)
+        //.setRequiredResearches("精灵造物研究")mob_grinding
+        .setIcons(<item:minecraft:skull:2>)
+        .setTitle("rav.research.mob_grinding.title")
+        .setDescription("rav.research.mob_grinding.description")
+        .addCondition(
+            <item:minecraft:rotten_flesh>*32,
+            <item:minecraft:bone>*32,
+            <item:minecraft:string>*32,
+            <item:minecraft:gunpowder>*32,
+            <item:minecraft:ender_pearl>*8
+            )
+        .setRewardStages("mob_grinding")
+        .setRewardCommands(fireworks_big , title("怪物：你不要过来啊啊啊"), sound , fireworks_small)
+        .build();
     /* ResearchTable.builder( "创世：混沌生秩序", c)
         .setRequiredResearches("世界认知：虚空")
         .setIcons(<botania:blacklotus:1>)

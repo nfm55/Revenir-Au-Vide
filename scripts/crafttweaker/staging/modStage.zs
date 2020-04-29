@@ -30,6 +30,11 @@ static stageModMap as string[][string] = {
         "immersivepetroleum",
 	    "immersivetech"
     ],
+    //支线：刷怪塔改造计划
+    "mob_grinding" : [
+        "mob_grinding_utils"
+    ],
+
     "two" : [
         "thermaldynamics",
         "thermalexpansion"
