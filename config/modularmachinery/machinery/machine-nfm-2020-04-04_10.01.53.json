@@ -1,0 +1,29 @@
+{
+    "parts": [
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "botania:storage@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "nbt": {"busSize":"0","casingColor":"16730368","id":"minecraft:tileiteminputbus","inventory":{"inventoryArray":[{"holderEmpty":"1b","holderId":"0"}],"outSlots":,"miscSlots":,"inSlots":,"sides":}},
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "nbt": {"busSize":"0","casingColor":"16730368","id":"minecraft:tileitemoutputbus","inventory":{"inventoryArray":[{"holderEmpty":"1b","holderId":"0"}],"outSlots":,"miscSlots":,"inSlots":,"sides":}},
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        }
+    ]}
