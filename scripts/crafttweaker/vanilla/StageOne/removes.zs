@@ -10,7 +10,8 @@ val removingArray as IItemStack[] = [
     <naturesaura:bottle_two_the_rebottling>,
     <tconstruct:soil>,
     <immersiveengineering:stone_decoration:5>,
-    <extendedcrafting:material>
+    <extendedcrafting:material>,
+    <modularmachinery:itemmodularium>
 ];
 
 for items in removingArray{
