@@ -22,3 +22,6 @@ function BlockBuilder(name as string, material as BlockMaterial, sound as SoundT
     cotblock.setToolLevel(toollvl); //工具等级
 	cotblock.register();
 }
+
+BlockBuilder("modularity_frame", <blockmaterial:iron>, <soundtype:metal>, 5.0, 50.0, "pickaxe", 2);
+ResourceLocation.create("contenttweaker:modularity_frame/modularity_frame);
