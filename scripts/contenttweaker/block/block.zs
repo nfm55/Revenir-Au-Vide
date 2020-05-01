@@ -23,8 +23,11 @@ function BlockBuilder(name as string, material as BlockMaterial, sound as SoundT
 	cotblock.register();
 }
 
-BlockBuilder("modularity_frame", <blockmaterial:iron>, <soundtype:metal>, 5.0, 50.0, "pickaxe", 2);
+BlockBuilder("modularity_frame", <blockmaterial:iron>, <soundtype:metal>, 5.0, 50.0, "pickaxe", 1);
 ResourceLocation.create("contenttweaker:modularity_frame/modularity_frame");
 
-BlockBuilder("blockcasing_mana", <blockmaterial:iron>, <soundtype:metal>, 5.0, 50.0, "pickaxe", 2);
+BlockBuilder("blockcasing_mana", <blockmaterial:iron>, <soundtype:metal>, 5.0, 50.0, "pickaxe", 1);
 ResourceLocation.create("contenttweaker:blockcasing_mana/blockcasing_mana");
+
+BlockBuilder("blockcasing_blood", <blockmaterial:iron>, <soundtype:metal>, 5.0, 50.0, "pickaxe", 1);
+ResourceLocation.create("contenttweaker:blockcasing_blood/blockcasing_blood");
