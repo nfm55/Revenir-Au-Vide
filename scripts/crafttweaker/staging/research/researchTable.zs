@@ -37,10 +37,10 @@ function title(stage as string){
         .addCondition(
             <item:botania:manaresource:7>*32,
             <item:botania:manaresource:8>*16,
-            <item:botanic:rune:4>  * 8, 
-            <item:botanic:rune:5>  * 8, 
-            <item:botanic:rune:6>  * 8,
-            <item:botanic:rune:7>  * 8,
+            <item:botania:rune:4>  * 8, 
+            <item:botania:rune:5>  * 8, 
+            <item:botania:rune:6>  * 8,
+            <item:botania:rune:7>  * 8,
             <item:botania:manaresource:5>*4,
             <item:botania:manaresource:9>
             )
