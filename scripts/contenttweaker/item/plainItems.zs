@@ -36,7 +36,8 @@ var items as string[] = [
 	"rune_of_chaos",
 	"natural_soul",
 	"blood_ingot",
-	"rough_modularium"
+	"rough_modularium",
+	"void_ingot"
 ];
 
 //物品注册

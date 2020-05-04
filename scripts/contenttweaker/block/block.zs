@@ -31,3 +31,6 @@ ResourceLocation.create("contenttweaker:blockcasing_mana/blockcasing_mana");
 
 BlockBuilder("blockcasing_blood", <blockmaterial:iron>, <soundtype:metal>, 5.0, 50.0, "pickaxe", 1);
 ResourceLocation.create("contenttweaker:blockcasing_blood/blockcasing_blood");
+
+BlockBuilder("void_block", <blockmaterial:iron>, <soundtype:metal>, 5.0, 50.0, "pickaxe", 1);
+ResourceLocation.create("contenttweaker:void_block/void_block");

@@ -1,4 +1,6 @@
 {
+    "registryname": "melter",
+    "localizedname": "Melter",
     "parts": [
         {
             "x": -1,
@@ -12,7 +14,6 @@
             "x": -2,
             "y": 0,
             "z": 2,
-            "nbt": {"input":"0b","size":"5","casingColor":"16730368","id":"minecraft:tilefluidoutputhatch","tank":{"Empty":""}},
             "elements": [
                 "modularmachinery:blockfluidoutputhatch@5"
             ]
@@ -21,7 +22,6 @@
             "x": -1,
             "y": 0,
             "z": 0,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
             "elements": [
                 "tconstruct:seared@3"
             ]
@@ -46,7 +46,6 @@
             "x": -2,
             "y": 0,
             "z": 3,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
             "elements": [
                 "tconstruct:seared@3"
             ]
@@ -55,7 +54,7 @@
             "x": 1,
             "y": 0,
             "z": 0,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared@3"
             ]
@@ -104,7 +103,7 @@
             "x": -1,
             "y": 0,
             "z": 4,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared@3"
             ]
@@ -113,7 +112,7 @@
             "x": 2,
             "y": 0,
             "z": 1,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared@3"
             ]
@@ -130,7 +129,6 @@
             "x": 2,
             "y": 0,
             "z": 2,
-            "nbt": {"busSize":"1","casingColor":"16730368","id":"minecraft:tileiteminputbus","inventory":{"inventoryArray":[{"holderEmpty":"1b","holderId":"0"},{"holderEmpty":"1b","holderId":"1"},{"holderEmpty":"1b","holderId":"2"},{"holderEmpty":"1b","holderId":"3"}],"outSlots":,"miscSlots":,"inSlots":,"sides":}},
             "elements": [
                 "modularmachinery:blockinputbus@1"
             ]
@@ -139,7 +137,7 @@
             "x": 0,
             "y": 0,
             "z": 4,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared@3"
             ]
@@ -148,7 +146,7 @@
             "x": 1,
             "y": 0,
             "z": 4,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared@3"
             ]
@@ -157,7 +155,7 @@
             "x": 2,
             "y": 0,
             "z": 3,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared@3"
             ]
@@ -166,7 +164,7 @@
             "x": -1,
             "y": 1,
             "z": 1,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared_glass@0"
             ]
@@ -175,7 +173,7 @@
             "x": -1,
             "y": 1,
             "z": 2,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared_glass@0"
             ]
@@ -184,7 +182,7 @@
             "x": 0,
             "y": 1,
             "z": 1,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared_glass@0"
             ]
@@ -193,7 +191,7 @@
             "x": -1,
             "y": -1,
             "z": 1,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared@3"
             ]
@@ -202,7 +200,7 @@
             "x": -1,
             "y": 1,
             "z": 3,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared_glass@0"
             ]
@@ -211,7 +209,7 @@
             "x": 1,
             "y": 1,
             "z": 1,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared_glass@0"
             ]
@@ -220,7 +218,7 @@
             "x": 0,
             "y": 1,
             "z": 2,
-            "nbt": {"hatchSize":"3","casingColor":"16730368","id":"minecraft:tileenergyinputhatch","energy":"0L"},
+            
             "elements": [
                 "modularmachinery:blockenergyinputhatch@3"
             ]
@@ -229,7 +227,7 @@
             "x": -1,
             "y": -1,
             "z": 2,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared@3"
             ]
@@ -238,7 +236,7 @@
             "x": 0,
             "y": -1,
             "z": 1,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared@3"
             ]
@@ -247,7 +245,7 @@
             "x": 1,
             "y": 1,
             "z": 2,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared_glass@0"
             ]
@@ -256,7 +254,7 @@
             "x": 0,
             "y": 1,
             "z": 3,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared_glass@0"
             ]
@@ -265,7 +263,7 @@
             "x": -1,
             "y": -1,
             "z": 3,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared@3"
             ]
@@ -274,7 +272,7 @@
             "x": 0,
             "y": -1,
             "z": 2,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared@3"
             ]
@@ -283,7 +281,7 @@
             "x": 1,
             "y": -1,
             "z": 1,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared@3"
             ]
@@ -292,7 +290,7 @@
             "x": 1,
             "y": 1,
             "z": 3,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared_glass@0"
             ]
@@ -301,7 +299,7 @@
             "x": 0,
             "y": -1,
             "z": 3,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared@3"
             ]
@@ -310,7 +308,7 @@
             "x": 1,
             "y": -1,
             "z": 2,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared@3"
             ]
@@ -319,7 +317,7 @@
             "x": 1,
             "y": -1,
             "z": 3,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
+            
             "elements": [
                 "tconstruct:seared@3"
             ]
@@ -328,7 +326,6 @@
             "x": -2,
             "y": 0,
             "z": 1,
-            "nbt": {"hasMaster":"0b","id":"minecraft:tconstruct.smeltery_component"},
             "elements": [
                 "tconstruct:seared@3"
             ]

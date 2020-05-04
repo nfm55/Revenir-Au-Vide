@@ -20,6 +20,7 @@ item.contenttweaker.rune_of_chaos.name=混沌符文
 item.contenttweaker.blood_ingot.name=冶血锭
 item.contenttweaker.natural_soul.name=自然之魂
 item.contenttweaker.void_singularity.name=虚空奇点
+item.contenttweaker.void_ingot.name=虚空合金锭
 
 
 fluid.modularium=熔融粗制模块化合金
@@ -28,6 +29,7 @@ fluid.blood_ingot=熔融冶血锭
 
 tile.contenttweaker.blockcasing_mana.name=魔力钢机械外壳
 tile.contenttweaker.modularity_frame.name=机械框架
+tile.contenttweaker.void_block.name=虚空合金块
 
 
 rav.research.elfnology.title=精灵造物研究
