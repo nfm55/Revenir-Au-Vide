@@ -12,7 +12,7 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<modularmachinery:itemmodularium>,<botania:storage:0>,<modularmachinery:itemmodularium>],
         [null,<modularmachinery:itemmodularium>,null]
     ],
-    <contenttweaker:void_block>*2 : [
+    <contenttweaker:void_block> : [
         [<contenttweaker:void_ingot>,<contenttweaker:void_ingot>,<contenttweaker:void_ingot>],
         [<contenttweaker:void_ingot>,<contenttweaker:void_ingot>,<contenttweaker:void_ingot>],
         [<contenttweaker:void_ingot>,<contenttweaker:void_ingot>,<contenttweaker:void_ingot>]
@@ -21,7 +21,7 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
 
 //无序合成表
 val shapelessRecipesMap as IIngredient[][IItemStack] = {
-    
+    <contenttweaker:void_ingot> * 9 : [<contenttweaker:void_block>]
 };
 
 //批量添加有序合成

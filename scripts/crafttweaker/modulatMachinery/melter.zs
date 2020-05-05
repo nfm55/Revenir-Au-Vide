@@ -7,7 +7,7 @@ import crafttweaker.oredict.IOreDictEntry;
 
 var machineName = "melter";
 
-var recipes as ILiquidStack[IOreDictEntry] = {
+static recipes as ILiquidStack[IOreDictEntry] = {
     <ore:ingotIron> : <fluid:iron>*144,
     <ore:ingotGold> : <fluid:gold>*144,
     <ore:ingotCopper> : <fluid:copper>*144,
@@ -17,8 +17,8 @@ var recipes as ILiquidStack[IOreDictEntry] = {
     <ore:ingotAluminum> : <fluid:aluminum>*144,
     <ore:ingotNickel> : <fluid:nickel>*144
 };
-for ingot_input , fluid_output in recipes{
-    mods.modularmachinery.RecipeBuilder.newBuilder(machineName, machineName, 200)
+for ingot_input , fluid_output  in recipes{
+    mods.modularmachinery.RecipeBuilder.newBuilder(machineName+"_"+ingot_input.name, machineName, 200)
     	.addEnergyPerTickInput(500)
     	.addItemInput(ingot_input)
     	.addFluidOutput(fluid_output)
