@@ -18,7 +18,7 @@ static recipes as ILiquidStack[IOreDictEntry] = {
     <ore:ingotNickel> : <fluid:nickel>*144
 };
 for ingot_input , fluid_output  in recipes{
-    mods.modularmachinery.RecipeBuilder.newBuilder(machineName+"_"+ingot_input.name, machineName, 200)
+    mods.modularmachinery.RecipeBuilder.newBuilder(machineName+"_"+ingot_input.name, machineName, 100)
     	.addEnergyPerTickInput(500)
     	.addItemInput(ingot_input)
     	.addFluidOutput(fluid_output)
